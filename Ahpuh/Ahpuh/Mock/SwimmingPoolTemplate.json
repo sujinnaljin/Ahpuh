@@ -1,0 +1,36 @@
+{
+    "name": "",
+    "address": "",
+    "regularHolidays": "",
+    "operatingHoursPerDay" : {
+        "monday": [
+           
+        ],
+        "tuesday": [
+           
+        ],
+        "wednesday": [
+            
+        ],
+        "thursday": [
+            
+        ],
+        "friday": [
+            
+        ],
+        "saturday": [
+           
+        ],
+        "sunday": [
+           
+        ]
+    },
+    "cleaningTime" : "",
+    "fees": {
+        "성인": 1000
+    },
+    "additionalInfo" : [
+
+    ],
+    "website" : ""
+}
