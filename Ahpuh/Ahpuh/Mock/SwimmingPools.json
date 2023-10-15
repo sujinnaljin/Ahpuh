@@ -520,5 +520,133 @@
             "latitude" : 1.1
         },
         "phoneNumber" : "02-550-3600"
+    },
+    {
+        "name": "온조 대왕 문화 체육관",
+        "address": "서울특별시 강동구 고덕로 285",
+        "regularHolidays": "매주 일요일 및 공휴일",
+        "operatingHoursPerDay" : {
+            "monday": [
+               "12:00~12:50"
+            ],
+            "tuesday": [
+                "12:00~12:50"
+            ],
+            "wednesday": [
+                "12:00~12:50"
+            ],
+            "thursday": [
+                "12:00~12:50"
+            ],
+            "friday": [
+                "12:00~12:50"
+            ],
+            "saturday": [
+               "09:00~10:50",
+               "13:00~14:50",
+               "15:30~17:20"
+            ],
+            "sunday": [
+               
+            ]
+        },
+        "cleaningTime" : "",
+        "fees": {
+            "성인": 4400
+        },
+        "additionalInfo" : [
+            "입장 정원 - 평일 90명 / 토 1부 50명 / 토 2,3 부 120명",
+            "오리발, 물놀이용품(튜브, 물총, 공 등)은 사용이 불가합니다.",
+            "자유수영 일부 온라인 예약제로 운영되고 있으니, 공지사항을 참고해주세요."
+        ],
+        "website" : "https://online.igangdong.or.kr/sindex.do?icode=4004",
+        "coordinate": {
+            "latitude" : 1.1,
+            "latitude" : 1.1
+        },
+        "phoneNumber" : "02-2045-7800"
+    },
+    {
+        "name": "강동 유소년 스포츠센터",
+        "address": "서울특별시 강동구 강일동 상일로12길 60",
+        "regularHolidays": "",
+        "operatingHoursPerDay" : {
+            "monday": [
+                "일일 회원 입장 불가"
+            ],
+            "tuesday": [
+                "일일 회원 입장 불가"
+            ],
+            "wednesday": [
+                "일일 회원 입장 불가"
+            ],
+            "thursday": [
+                "일일 회원 입장 불가"
+            ],
+            "friday": [
+                "일일 회원 입장 불가"
+            ],
+            "saturday": [
+               "13:00~14:50",
+                "15:00~16:50"
+            ],
+            "sunday": [
+               
+            ]
+        },
+        "cleaningTime" : "일요일 및 공휴일 휴관",
+        "fees": {
+            "성인": 4400
+        },
+        "additionalInfo" : [
+            "정원 56명"
+        ],
+        "website" : "https://online.igangdong.or.kr/sindex.do?icode=4004",
+        "coordinate": {
+            "latitude" : 1.1,
+            "latitude" : 1.1
+        },
+        "phoneNumber" : "02-3428-7979"
+    },
+    {
+        "name": "고덕 어울림 수영장",
+        "address": "서울 강동구 고덕로 399",
+        "regularHolidays": "일요일 및 공휴일",
+        "operatingHoursPerDay" : {
+            "monday": [
+               "12:00~12:50"
+            ],
+            "tuesday": [
+                "12:00~12:50"
+            ],
+            "wednesday": [
+                "12:00~12:50"
+            ],
+            "thursday": [
+                "12:00~12:50"
+            ],
+            "friday": [
+                "12:00~12:50"
+            ],
+            "saturday": [
+               "15:30~17:20"
+            ],
+            "sunday": [
+               
+            ]
+        },
+        "cleaningTime" : "",
+        "fees": {
+            "성인": 4400
+        },
+        "additionalInfo" : [
+            "입장 정원 80명"
+        ],
+        "website" : "https://online.igangdong.or.kr/sindex.do?icode=4004",
+        "coordinate": {
+            "latitude" : 1.1,
+            "latitude" : 1.1
+        },
+        "phoneNumber" : "02-2045-7630"
     }
 ]
