@@ -264,6 +264,217 @@
         "website" : "https://stadium.seoul.go.kr/lecture/fee"
     },
     {
+        "name": "문정 교육 문화관",
+        "address": "서울 송파구 송이로 34길 62",
+        "regularHolidays": "12월/1월/2월/3월 일요일, 4월/5월/10월/11월 첫째, 셋째주 일요일",
+        "operatingHoursPerDay" : {
+            "monday": [
+                "08:00~08:50",
+                "13:00~13:50",
+                "18:00~18:50"
+            ],
+            "tuesday": [
+                "08:00~08:50",
+                "12:00~12:50",
+                "13:00~13:50",
+                "18:00~18:50"
+            ],
+            "wednesday": [
+                "08:00~08:50",
+                "13:00~13:50",
+                "18:00~18:50"
+            ],
+            "thursday": [
+                "08:00~08:50",
+                "12:00~12:50",
+                "13:00~13:50",
+                "18:00~18:50"
+            ],
+            "friday": [
+                "08:00~08:50",
+                "13:00~13:50",
+                "18:00~18:50"
+            ],
+            "saturday": [
+                "10:00~11:50",
+                "13:00~14:50",
+                "16:00~17:50"
+            ],
+            "sunday": [
+                "10:00~11:50",
+                "13:00~14:50",
+                "16:00~17:50"
+            ]
+        },
+        "cleaningTime" : "",
+        "fees": {
+            "성인 5매": 45000
+        },
+        "additionalInfo" : [
+            "일요일 운영 시간 계절별 상이",
+            "매시간 45분부터 입장가능합니다."
+        ],
+        "website" : "https://mjsports.modoo.at/?link=b900qir5",
+        "coordinate": {
+            "latitude" : 1.1,
+            "latitude" : 1.1
+        },
+        "phoneNumber" : "02-400-8700"
+    },
+    {
+        "name": "송파구 체육 문화회관",
+        "address": "송파구 양산로 15",
+        "regularHolidays": "매주 일요일 및 법정 공휴일",
+        "operatingHoursPerDay" : {
+            "monday": [
+               "일일 회원 입장 불가"
+            ],
+            "tuesday": [
+                "일일 회원 입장 불가"
+            ],
+            "wednesday": [
+                "일일 회원 입장 불가"
+            ],
+            "thursday": [
+                "일일 회원 입장 불가"
+            ],
+            "friday": [
+                "일일 회원 입장 불가"
+            ],
+            "saturday": [
+                "13:00~15:00",
+                "15:30~17:30",
+            ],
+            "sunday": [
+               
+            ]
+        },
+        "cleaningTime" : "",
+        "fees": {
+            "성인": 5000
+        },
+        "additionalInfo" : [
+            "현장 선착순 100명",
+            "스마트 워치 착용 불가",
+            "오리발,패들 등의 수영도구 착용불가",
+            "킥판사용은 초급레인에서만 가능"
+        ],
+        "website" : "https://www.esongpa.or.kr/fmcs/169?ctgcd=1110000000",
+        "coordinate": {
+            "latitude" : 1.1,
+            "latitude" : 1.1
+        },
+        "phoneNumber" : "02-402-3291"
+    },
+    {
+        "name": "강남 스포츠 문화센터",
+        "address": "서울특별시 강남구 학동로 426",
+        "regularHolidays": "법정휴일 및 매월 첫째 주, 셋째 주, 다섯째 주 일요일",
+        "operatingHoursPerDay" : {
+            "monday": [
+                "12:30~13:20",
+                "15:30~16:20",
+                "16:30~17:20"
+            ],
+            "tuesday": [
+                "12:30~13:20",
+                "15:30~16:20",
+                "16:30~17:20"
+            ],
+            "wednesday": [
+                "12:30~13:20",
+                "15:30~16:20",
+                "16:30~17:20"
+            ],
+            "thursday": [
+                "12:30~13:20",
+                "15:30~16:20",
+                "16:30~17:20"
+            ],
+            "friday": [
+                "12:30~13:20",
+                "15:30~16:20",
+                "16:30~17:20"
+            ],
+            "saturday": [
+               "06:30~07:20",
+               "08:30~09:20",
+               "09:30~10:20",
+               "10:30~11:20",
+               "11:30~12:20",
+               "12:30~13:20",
+               "13:30~14:20",
+               "14:30~15:20",
+               "15:30~16:20",
+               "16:30~17:20"
+            ],
+            "sunday": [
+                "10:30~11:20",
+                "11:30~12:20",
+                "13:30~14:20",
+                "14:30~15:20"
+            ]
+        },
+        "cleaningTime" : "",
+        "fees": {
+            "성인": 5000
+        },
+        "additionalInfo" : [
+            "평일 자유수영의 경우 한시적 운영으로, 추후 시간 변동 가능",
+            "수영장에 음식물이나 개인 소지품을 가지고 입장 할 수 없습니다.",
+            "50분 수영 후 10분간 정비 및 휴식 시간이 있습니다.(물 밖으로 퇴수)",
+            "모든 강습 및 자유수영의 이용 시간(50분)을 준수합니다.",
+            "강습 외 오리발, 스노쿨, 튜브 및 수영장 내 강습용품을 사용 할 수 없습니다.(지도자와 상담)"
+        ],
+        "website" : "https://life.gangnam.go.kr/fmcs/341",
+        "coordinate": {
+            "latitude" : 1.1,
+            "latitude" : 1.1
+        },
+        "phoneNumber" : "02-2176-0801"
+    },
+    {
+        "name": "시립 수서 청소년 센터",
+        "address": "서울특별시 강남구 광평로 144",
+        "regularHolidays": "매주 일요일 및 공휴일",
+        "operatingHoursPerDay" : {
+            "monday": [
+                "일일 회원 입장 불가"
+            ],
+            "tuesday": [
+                "일일 회원 입장 불가"
+            ],
+            "wednesday": [
+                "일일 회원 입장 불가"
+            ],
+            "thursday": [
+                "일일 회원 입장 불가"
+            ],
+            "friday": [
+                "일일 회원 입장 불가"
+            ],
+            "saturday": [
+                "13:00~14:50"
+            ],
+            "sunday": [
+               
+            ]
+        },
+        "cleaningTime" : "",
+        "fees": {
+            "성인": 6000
+        },
+        "additionalInfo" : [
+
+        ],
+        "website" : "http://www.youtra.or.kr/sub/sub070107.php",
+        "coordinate": {
+            "latitude" : 1.1,
+            "latitude" : 1.1
+        },
+        "phoneNumber" : "02-2226-3611"
+    },
+    {
         "name": "역삼 청소년 수련관",
         "address": "서울특별시 강남구 논현로64길 7",
         "regularHolidays": "매주 일요일",
@@ -303,6 +514,11 @@
         "additionalInfo" : [
 
         ],
-        "website" : "https://www.gangnam.go.kr/office/gyyc/board/gyyc_21/list.do?mid=gyyc_swimming"
+        "website" : "https://www.gangnam.go.kr/office/gyyc/board/gyyc_21/list.do?mid=gyyc_swimming",
+        "coordinate": {
+            "latitude" : 1.1,
+            "latitude" : 1.1
+        },
+        "phoneNumber" : "02-550-3600"
     }
 ]
