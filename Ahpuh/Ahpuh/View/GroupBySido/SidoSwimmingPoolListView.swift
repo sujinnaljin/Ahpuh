@@ -36,23 +36,13 @@ struct SidoSwimmingPoolListView: View {
                         ForEach(swimmingPoolsInSigungu, id: \.id) { swimmingPool in
                             if let swimmingPoolName = swimmingPool.name {
                                 NavigationLink(swimmingPoolName) {
-                                    SwimmingPoolDetailView(swimmingPool: swimmingPool)
+                                    SwimmingPoolDetailView(swimmingPool: swimmingPool,
+                                                           pinnedSwimmingPoolsKeys: $pinnedSwimmingPoolsKeys)
                                 }
                                 .swipeActions(edge: .leading) {
-                                    let isPinnedSwmmingPool = pinnedSwimmingPoolsKeys.contains(swimmingPoolName)
-                                    Button {
-                                        if isPinnedSwmmingPool {
-                                            pinnedSwimmingPoolsKeys.removeAll { pinnedSwimmingPoolsKey in
-                                                pinnedSwimmingPoolsKey == swimmingPoolName
-                                            }
-                                        } else {
-                                            pinnedSwimmingPoolsKeys.append(swimmingPoolName)
-                                        }
-                                    } label: {
-                                        let pinImageName = isPinnedSwmmingPool ? "pin.slash" : "pin"
-                                        Image(systemName: pinImageName)
-                                    }
-                                    .tint(.yellow)
+                                    PinButtonView(swimmingPoolName: swimmingPoolName, 
+                                                  pinImageName: (isToPin: "pin", isToUnpin: "pin.slash"),
+                                                  pinnedSwimmingPoolsKeys: $pinnedSwimmingPoolsKeys)
                                 }
                             }
                         }
@@ -120,5 +110,4 @@ struct SidoSwimmingPoolListView: View {
     }, pinnedSwimmingPoolsKeys: .constant(["올림픽 공원 수영장"]))
         .environment(\.isTestEnverionment, true)
     return SidoSwimmingPoolListView
-    
 }

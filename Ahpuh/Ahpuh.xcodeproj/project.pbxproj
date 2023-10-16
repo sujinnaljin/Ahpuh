@@ -19,12 +19,12 @@
 		3B1EFCC52ADAEB6500114650 /* SwimmingPoolDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1EFCAD2ADAE97D00114650 /* SwimmingPoolDetailView.swift */; };
 		3B1EFCC62ADAEB6500114650 /* PinnedSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1EFCAF2ADAE97D00114650 /* PinnedSection.swift */; };
 		3B1EFCC72ADAEB6500114650 /* SwimmingPoolListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1EFCB02ADAE97D00114650 /* SwimmingPoolListView.swift */; };
-		3B1EFCC82ADAEB6500114650 /* UnpinnedSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1EFCB12ADAE97D00114650 /* UnpinnedSection.swift */; };
 		3B1EFCC92ADAEB7800114650 /* SwimmingPools.json in Resources */ = {isa = PBXBuildFile; fileRef = 3B1EFCBC2ADAE97D00114650 /* SwimmingPools.json */; };
 		3B1EFCCA2ADAEB7800114650 /* SwimmingPoolTemplate.json in Resources */ = {isa = PBXBuildFile; fileRef = 3B1EFCBD2ADAE97D00114650 /* SwimmingPoolTemplate.json */; };
 		3B1EFCCD2ADD808200114650 /* Sido.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1EFCCC2ADD808200114650 /* Sido.swift */; };
 		3B1EFCCF2ADD808800114650 /* Sigungu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1EFCCE2ADD808800114650 /* Sigungu.swift */; };
 		3B1EFCD22ADD8B6800114650 /* SidoSwimmingPoolListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1EFCD12ADD8B6800114650 /* SidoSwimmingPoolListView.swift */; };
+		3B1EFCD42ADDB97500114650 /* PinButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1EFCD32ADDB97500114650 /* PinButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,7 +35,6 @@
 		3B1EFCAD2ADAE97D00114650 /* SwimmingPoolDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwimmingPoolDetailView.swift; sourceTree = "<group>"; };
 		3B1EFCAF2ADAE97D00114650 /* PinnedSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinnedSection.swift; sourceTree = "<group>"; };
 		3B1EFCB02ADAE97D00114650 /* SwimmingPoolListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwimmingPoolListView.swift; sourceTree = "<group>"; };
-		3B1EFCB12ADAE97D00114650 /* UnpinnedSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnpinnedSection.swift; sourceTree = "<group>"; };
 		3B1EFCB32ADAE97D00114650 /* SwimmingPool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwimmingPool.swift; sourceTree = "<group>"; };
 		3B1EFCB52ADAE97D00114650 /* Array+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Extensions.swift"; sourceTree = "<group>"; };
 		3B1EFCB62ADAE97D00114650 /* EnvironmentValues+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EnvironmentValues+Extensions.swift"; sourceTree = "<group>"; };
@@ -47,6 +46,7 @@
 		3B1EFCCC2ADD808200114650 /* Sido.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sido.swift; sourceTree = "<group>"; };
 		3B1EFCCE2ADD808800114650 /* Sigungu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sigungu.swift; sourceTree = "<group>"; };
 		3B1EFCD12ADD8B6800114650 /* SidoSwimmingPoolListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidoSwimmingPoolListView.swift; sourceTree = "<group>"; };
+		3B1EFCD32ADDB97500114650 /* PinButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,7 +122,7 @@
 			children = (
 				3B1EFCB02ADAE97D00114650 /* SwimmingPoolListView.swift */,
 				3B1EFCAF2ADAE97D00114650 /* PinnedSection.swift */,
-				3B1EFCB12ADAE97D00114650 /* UnpinnedSection.swift */,
+				3B1EFCD32ADDB97500114650 /* PinButtonView.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -254,6 +254,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B1EFCBE2ADAEB6500114650 /* Array+Extensions.swift in Sources */,
+				3B1EFCD42ADDB97500114650 /* PinButtonView.swift in Sources */,
 				3B1EFCBF2ADAEB6500114650 /* EnvironmentValues+Extensions.swift in Sources */,
 				3B1EFCC02ADAEB6500114650 /* CLLocationCoordinate2D+Extensions.swift in Sources */,
 				3B1EFCCD2ADD808200114650 /* Sido.swift in Sources */,
@@ -266,7 +267,6 @@
 				3B1EFCC52ADAEB6500114650 /* SwimmingPoolDetailView.swift in Sources */,
 				3B1EFCC62ADAEB6500114650 /* PinnedSection.swift in Sources */,
 				3B1EFCC72ADAEB6500114650 /* SwimmingPoolListView.swift in Sources */,
-				3B1EFCC82ADAEB6500114650 /* UnpinnedSection.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

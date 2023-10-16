@@ -12,7 +12,6 @@ struct PinnedSection: View {
     let swimmingPools: [SwimmingPool]
     @Binding var pinnedSwimmingPoolsKeys: [String]
     private let headerTitle = "고정된 수영장"
-    private let swipeActionImageName = "pin.slash"
     
     var body: some View {
         let pinnedSwimmingPools: [SwimmingPool] = pinnedSwimmingPools()
@@ -20,17 +19,13 @@ struct PinnedSection: View {
             ForEach(pinnedSwimmingPools, id: \.id) { swimmingPool in
                 if let swimmingPoolName = swimmingPool.name {
                     NavigationLink(swimmingPoolName) {
-                        SwimmingPoolDetailView(swimmingPool: swimmingPool)
+                        SwimmingPoolDetailView(swimmingPool: swimmingPool, 
+                                               pinnedSwimmingPoolsKeys: $pinnedSwimmingPoolsKeys)
                     }
                     .swipeActions(edge: .leading) {
-                        Button {
-                            pinnedSwimmingPoolsKeys.removeAll { pinnedSwimmingPoolsKey in
-                                pinnedSwimmingPoolsKey == swimmingPoolName
-                            }
-                        } label: {
-                            Image(systemName: swipeActionImageName)
-                        }
-                        .tint(.yellow)
+                        PinButtonView(swimmingPoolName: swimmingPoolName,
+                                      pinImageName: (isToPin: "pin", isToUnpin: "pin.slash"),
+                                      pinnedSwimmingPoolsKeys: $pinnedSwimmingPoolsKeys)
                     }
                 }
             }

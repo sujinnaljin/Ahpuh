@@ -12,6 +12,7 @@ import UniformTypeIdentifiers
 struct SwimmingPoolDetailView: View {
     
     let swimmingPool: SwimmingPool
+    @Binding var pinnedSwimmingPoolsKeys: [String]
     private let currentWeekDayRawValue: Int = Calendar.current.component(.weekday,
                                                                          from: Date())
     var body: some View {
@@ -39,9 +40,17 @@ struct SwimmingPoolDetailView: View {
                     .listRowBackground(isToday ? Color.yellow : Color.white)
                 }
             } header: {
-                Text("운영 시간")
-                    .font(.title2)
-                    .fontWeight(.semibold)
+                HStack {
+                    Text("운영 시간")
+                        .fontWeight(.semibold)
+                    if let website = swimmingPool.website,
+                       let url = URL(string: website) {
+                        Link(destination: url) {
+                            Image(systemName: "link")
+                        }
+                    }
+                }
+                .font(.title2)
             } footer: {
                 VStack(alignment: .leading, spacing: 10) {
                     if let regularHolidays = swimmingPool.regularHolidays,
@@ -121,17 +130,16 @@ struct SwimmingPoolDetailView: View {
                         Text("현재 시점과 다른 정보가 있을 수 있어요! 정확한 정보는 상단의 사이트 링크를 확인해주세요.")
                         Text("수정이나 제안이 필요한가요? [이곳](https://forms.gle/kNLwLY9kDpiGHeX9A)에 제보해주세요.")
                     }
-                    .font(.caption)
+                    .font(.footnote)
                 }
             }
         }
         .navigationBarTitle(swimmingPool.name ?? "")
         .toolbar {
-            if let website = swimmingPool.website,
-               let url = URL(string: website) {
-                Link(destination: url) {
-                    Image(systemName: "link")
-                }
+            if let swimmingPoolName = swimmingPool.name {
+                PinButtonView(swimmingPoolName: swimmingPoolName, 
+                              pinImageName: (isToPin: "pin", isToUnpin: "pin.fill"),
+                              pinnedSwimmingPoolsKeys: $pinnedSwimmingPoolsKeys)
             }
         }
     }
@@ -143,7 +151,8 @@ struct SwimmingPoolDetailView_Previews: PreviewProvider {
     static var previews: some View {
         let swimmingPool = MockFileKey.defaultValue.first!
         NavigationStack {
-            SwimmingPoolDetailView(swimmingPool: swimmingPool)
+            SwimmingPoolDetailView(swimmingPool: swimmingPool,
+                                   pinnedSwimmingPoolsKeys: .constant(["올림픽 공원 수영장"]))
         }
     }
 }
