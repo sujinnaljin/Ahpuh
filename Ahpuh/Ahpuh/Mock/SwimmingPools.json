@@ -803,7 +803,9 @@
             "latitude" : 1.1,
             "latitude" : 1.1
         },
-        "phoneNumber" : "02-3661-1999"
+        "phoneNumber" : "02-3661-1999",
+        "sidoCode" : "11",
+        "sigunguCode" : "160"
     },
     {
         "name": "공항동 문화 체육센터",
@@ -871,7 +873,9 @@
             "latitude" : 1.1,
             "latitude" : 1.1
         },
-        "phoneNumber" : "02-2666-9003"
+        "phoneNumber" : "02-2666-9003",
+        "sidoCode" : "11",
+        "sigunguCode" : "160"
     },
     {
         "name": "마곡 레포츠센터",
@@ -930,8 +934,14 @@
             "latitude" : 1.1,
             "latitude" : 1.1
         },
-        "phoneNumber" : "02-3663-7171"
+        "phoneNumber" : "02-3663-7171",
+        "sidoCode" : "11",
+        "sigunguCode" : "160"
     },
+    
+    
+    
+    
     {
         "name": "서울숲 복합 문화 체육센터",
         "address": "서울특별시 성동구 성수동1가 685-63",
@@ -979,6 +989,9 @@
         ],
         "website" : "https://sports.happysd.or.kr/fmcs/38"
     },
+    
+    
+    
     {
         "name": "대덕구 청소년 어울림 센터",
         "address": "대전 대덕구 쌍청당로 25",
@@ -1018,6 +1031,10 @@
         "sidoCode" : "25",
         "sigunguCode" : "050"
     },
+    
+    
+    
+    
     {
         "name": "용운 국제 수영장",
         "address": "대전 동구 동부로 138",
