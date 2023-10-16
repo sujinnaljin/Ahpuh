@@ -22,6 +22,9 @@
 		3B1EFCC82ADAEB6500114650 /* UnpinnedSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1EFCB12ADAE97D00114650 /* UnpinnedSection.swift */; };
 		3B1EFCC92ADAEB7800114650 /* SwimmingPools.json in Resources */ = {isa = PBXBuildFile; fileRef = 3B1EFCBC2ADAE97D00114650 /* SwimmingPools.json */; };
 		3B1EFCCA2ADAEB7800114650 /* SwimmingPoolTemplate.json in Resources */ = {isa = PBXBuildFile; fileRef = 3B1EFCBD2ADAE97D00114650 /* SwimmingPoolTemplate.json */; };
+		3B1EFCCD2ADD808200114650 /* Sido.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1EFCCC2ADD808200114650 /* Sido.swift */; };
+		3B1EFCCF2ADD808800114650 /* Sigungu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1EFCCE2ADD808800114650 /* Sigungu.swift */; };
+		3B1EFCD22ADD8B6800114650 /* SidoSwimmingPoolListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1EFCD12ADD8B6800114650 /* SidoSwimmingPoolListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +44,9 @@
 		3B1EFCBA2ADAE97D00114650 /* NetworkClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkClient.swift; sourceTree = "<group>"; };
 		3B1EFCBC2ADAE97D00114650 /* SwimmingPools.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = SwimmingPools.json; sourceTree = "<group>"; };
 		3B1EFCBD2ADAE97D00114650 /* SwimmingPoolTemplate.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = SwimmingPoolTemplate.json; sourceTree = "<group>"; };
+		3B1EFCCC2ADD808200114650 /* Sido.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sido.swift; sourceTree = "<group>"; };
+		3B1EFCCE2ADD808800114650 /* Sigungu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sigungu.swift; sourceTree = "<group>"; };
+		3B1EFCD12ADD8B6800114650 /* SidoSwimmingPoolListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidoSwimmingPoolListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,8 +102,9 @@
 			isa = PBXGroup;
 			children = (
 				3B1EFCAB2ADAE97D00114650 /* AhpuhApp.swift */,
-				3B1EFCAC2ADAE97D00114650 /* Detail */,
 				3B1EFCAE2ADAE97D00114650 /* Main */,
+				3B1EFCD02ADD8B3500114650 /* GroupBySido */,
+				3B1EFCAC2ADAE97D00114650 /* Detail */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -113,8 +120,8 @@
 		3B1EFCAE2ADAE97D00114650 /* Main */ = {
 			isa = PBXGroup;
 			children = (
-				3B1EFCAF2ADAE97D00114650 /* PinnedSection.swift */,
 				3B1EFCB02ADAE97D00114650 /* SwimmingPoolListView.swift */,
+				3B1EFCAF2ADAE97D00114650 /* PinnedSection.swift */,
 				3B1EFCB12ADAE97D00114650 /* UnpinnedSection.swift */,
 			);
 			path = Main;
@@ -123,6 +130,7 @@
 		3B1EFCB22ADAE97D00114650 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				3B1EFCCB2ADD807300114650 /* DistrictCode */,
 				3B1EFCB32ADAE97D00114650 /* SwimmingPool.swift */,
 			);
 			path = Model;
@@ -154,6 +162,23 @@
 				3B1EFCBD2ADAE97D00114650 /* SwimmingPoolTemplate.json */,
 			);
 			path = Mock;
+			sourceTree = "<group>";
+		};
+		3B1EFCCB2ADD807300114650 /* DistrictCode */ = {
+			isa = PBXGroup;
+			children = (
+				3B1EFCCC2ADD808200114650 /* Sido.swift */,
+				3B1EFCCE2ADD808800114650 /* Sigungu.swift */,
+			);
+			path = DistrictCode;
+			sourceTree = "<group>";
+		};
+		3B1EFCD02ADD8B3500114650 /* GroupBySido */ = {
+			isa = PBXGroup;
+			children = (
+				3B1EFCD12ADD8B6800114650 /* SidoSwimmingPoolListView.swift */,
+			);
+			path = GroupBySido;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,9 +256,12 @@
 				3B1EFCBE2ADAEB6500114650 /* Array+Extensions.swift in Sources */,
 				3B1EFCBF2ADAEB6500114650 /* EnvironmentValues+Extensions.swift in Sources */,
 				3B1EFCC02ADAEB6500114650 /* CLLocationCoordinate2D+Extensions.swift in Sources */,
+				3B1EFCCD2ADD808200114650 /* Sido.swift in Sources */,
 				3B1EFCC12ADAEB6500114650 /* JsonParser.swift in Sources */,
 				3B1EFCC22ADAEB6500114650 /* NetworkClient.swift in Sources */,
 				3B1EFCC32ADAEB6500114650 /* SwimmingPool.swift in Sources */,
+				3B1EFCCF2ADD808800114650 /* Sigungu.swift in Sources */,
+				3B1EFCD22ADD8B6800114650 /* SidoSwimmingPoolListView.swift in Sources */,
 				3B1EFCC42ADAEB6500114650 /* AhpuhApp.swift in Sources */,
 				3B1EFCC52ADAEB6500114650 /* SwimmingPoolDetailView.swift in Sources */,
 				3B1EFCC62ADAEB6500114650 /* PinnedSection.swift in Sources */,
@@ -297,7 +325,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -354,7 +382,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;

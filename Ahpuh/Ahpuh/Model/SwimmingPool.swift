@@ -18,6 +18,8 @@ struct SwimmingPool: Decodable {
     let fees: [String : Int]?
     let additionalInfo: [String]?
     let website: String?
+    let sidoCode: String?
+    let sigunguCode: String?
    
     private enum CodingKeys: String, CodingKey {
         case name
@@ -28,6 +30,8 @@ struct SwimmingPool: Decodable {
         case fees
         case additionalInfo
         case website
+        case sidoCode
+        case sigunguCode
     }
     
     init(from decoder: Decoder) throws {
@@ -46,6 +50,8 @@ struct SwimmingPool: Decodable {
         self.fees = try container.decodeIfPresent([String : Int].self, forKey: .fees)
         self.additionalInfo = try container.decodeIfPresent([String].self, forKey: .additionalInfo)
         self.website = try container.decodeIfPresent(String.self, forKey: .website)
+        self.sidoCode = try container.decodeIfPresent(String.self, forKey: .sidoCode)
+        self.sigunguCode = try container.decodeIfPresent(String.self, forKey: .sigunguCode)
     }
 }
 

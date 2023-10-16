@@ -39,8 +39,32 @@ struct SwimmingPoolListView: View {
                     }
                     PinnedSection(swimmingPools: swimmingPools,
                                   pinnedSwimmingPoolsKeys: $pinnedSwimmingPoolsKeys)
-                    UnpinnedSection(swimmingPools: swimmingPools,
-                                    pinnedSwimmingPoolsKeys: $pinnedSwimmingPoolsKeys)
+                    
+                    let swimmingPoolsBySidoCode = Dictionary(grouping: swimmingPools,
+                                                             by: { $0.sidoCode }).sorted {
+                        guard let sidoCode1 = $0.key,
+                              let sidoCode2 = $1.key else {
+                                  return false
+                              }
+                        
+                        return sidoCode1 < sidoCode2
+                    }
+                    Section {
+                        ForEach(swimmingPoolsBySidoCode, id: \.key) { sidoCode, swimmingPoolsInSido in
+                            if let sidoCode,
+                               let sidoName = Sido(rawValue:sidoCode)?.name {
+                                NavigationLink(sidoName) {
+                                    SidoSwimmingPoolListView(sidoName: sidoName,
+                                                             swimmingPools: swimmingPoolsInSido,
+                                                             pinnedSwimmingPoolsKeys: $pinnedSwimmingPoolsKeys)
+                                }
+                            }
+                        }
+                    } header: {
+                        Text("지역별 수영장")
+                            .font(.title2)
+                            .fontWeight(.semibold)
+                    }
                 }
             }
             .navigationBarTitle(navigationBarTitle)
