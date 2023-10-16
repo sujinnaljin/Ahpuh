@@ -603,11 +603,15 @@ enum GyeongnamSigungu: String, Sigungu {
 enum JejuSigungu: String, Sigungu {
     static let sido: Sido = .jeju
     
-    case Gu = ""
+    case jejuSi = "010"
+    case seogwipoSi = "020"
+
     var name: String {
         switch self {
-        case .Gu:
-            return ""
+        case .jejuSi:
+            return "제주시"
+        case .seogwipoSi:
+            return "서귀포시"
         }
     }
 }
