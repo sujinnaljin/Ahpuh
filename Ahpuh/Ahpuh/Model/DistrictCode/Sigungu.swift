@@ -466,11 +466,64 @@ enum GyeonggiSigungu: String, Sigungu {
 enum GangwonSigungu: String, Sigungu {
     static let sido: Sido = .chungbuk
     
-    case Gu = ""
+    case chuncheonSi = "010"
+    case wonjuSi = "020"
+    case gangneungSi = "030"
+    case donghaeSi = "040"
+    case taebaekSi = "050"
+    case sokchoSi = "060"
+    case samcheokSi = "070"
+    
+    case hongcheonGun = "510"
+    case hoengseongGun = "520"
+    case yeongwolGun = "530"
+    case pyeongchangGun = "540"
+    case jeongsunGun = "550"
+    case cheolwonGun = "560"
+    case hwacheonGun = "570"
+    case yangguGun = "580"
+    case injeGun = "590"
+    case gosungGun = "600"
+    case yangyangGun = "610"
+    
     var name: String {
         switch self {
-        case .Gu:
-            return ""
+        case .chuncheonSi:
+            return "춘천시"
+        case .wonjuSi:
+            return "원주시"
+        case .gangneungSi:
+            return "강릉시"
+        case .donghaeSi:
+            return "동해시"
+        case .taebaekSi:
+            return "태백시"
+        case .sokchoSi:
+            return "속초시"
+        case .samcheokSi:
+            return "삼척시"
+        case .hongcheonGun:
+            return "홍천군"
+        case .hoengseongGun:
+            return "횡성군"
+        case .yeongwolGun:
+            return "영월군"
+        case .pyeongchangGun:
+            return "평창군"
+        case .jeongsunGun:
+            return "정선군"
+        case .cheolwonGun:
+            return "철원군"
+        case .hwacheonGun:
+            return "화천군"
+        case .yangguGun:
+            return "양구군"
+        case .injeGun:
+            return "인제군"
+        case .gosungGun:
+            return "고성군"
+        case .yangyangGun:
+            return "양양군"
         }
     }
 }
