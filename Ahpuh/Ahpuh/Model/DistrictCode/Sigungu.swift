@@ -157,11 +157,33 @@ enum BusanSigungu: String, Sigungu {
 enum DaeguSigungu: String, Sigungu {
     static var sido: Sido = .daegu
     
-    case Gu = ""
+    case jungGu = "010"
+    case dongGu = "020"
+    case seoGu = "030"
+    case namGu = "040"
+    case bukGu = "050"
+    case suseongGu = "060"
+    case dalseoGu = "070"
+    case dalseongGun = "510"
+    
     var name: String {
         switch self {
-        case .Gu:
-            return ""
+        case .jungGu:
+            return "중구"
+        case .dongGu:
+            return "동구"
+        case .seoGu:
+            return "서구"
+        case .namGu:
+            return "남구"
+        case .bukGu:
+            return "북구"
+        case .suseongGu:
+            return "수성구"
+        case .dalseoGu:
+            return "달서구"
+        case .dalseongGun:
+            return "달성군"
         }
     }
 }
