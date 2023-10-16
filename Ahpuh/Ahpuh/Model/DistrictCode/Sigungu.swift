@@ -191,11 +191,39 @@ enum DaeguSigungu: String, Sigungu {
 enum IncheonSigungu: String, Sigungu {
     static var sido: Sido = .incheon
     
-    case Gu = ""
+    case jungGu = "010"
+    case dongGu = "020"
+    case yeonsuGu = "040"
+    case namdongGu = "050"
+    case bupyeongGu = "060"
+    case gyeyangGu = "070"
+    case seoGu = "080"
+    case michuholGu = "090"
+    case ganghwaGun = "510"
+    case ongjinGun = "520"
+    
     var name: String {
         switch self {
-        case .Gu:
-            return ""
+        case .jungGu:
+            return "중구"
+        case .dongGu:
+            return "동구"
+        case .yeonsuGu:
+            return "연수구"
+        case .namdongGu:
+            return "남동구"
+        case .bupyeongGu:
+            return "부평구"
+        case .gyeyangGu:
+            return "계양구"
+        case .seoGu:
+            return "서구"
+        case .michuholGu:
+            return "미추홀구"
+        case .ganghwaGun:
+            return "강화군"
+        case .ongjinGun:
+            return "옹진군"
         }
     }
 }
