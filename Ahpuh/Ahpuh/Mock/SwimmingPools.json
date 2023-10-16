@@ -623,7 +623,9 @@
             "latitude" : 1.1,
             "latitude" : 1.1
         },
-        "phoneNumber" : "02-944-3060"
+        "phoneNumber" : "02-944-3060",
+        "sidoCode" : "11",
+        "sigunguCode" : "090"
     },
     {
         "name": "강북 웰빙 스포츠센터",
@@ -674,7 +676,9 @@
             "latitude" : 1.1,
             "latitude" : 1.1
         },
-        "phoneNumber" : "02-944-2900"
+        "phoneNumber" : "02-944-2900",
+        "sidoCode" : "11",
+        "sigunguCode" : "090"
     },
     {
         "name": "시립 강북 청소년센터",
@@ -725,8 +729,13 @@
             "latitude" : 1.1,
             "latitude" : 1.1
         },
-        "phoneNumber" : "02.6715.6600~1 "
+        "phoneNumber" : "02.6715.6600~1",
+        "sidoCode" : "11",
+        "sigunguCode" : "090"
     },
+    
+    
+    
     {
         "name": "강서구민 올림픽 체육 센터",
         "address": "서울특별시 강서구 화곡로 65길 62",
