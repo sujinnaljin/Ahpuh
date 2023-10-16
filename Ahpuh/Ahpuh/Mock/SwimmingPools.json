@@ -272,6 +272,9 @@
     },
     
     
+    
+    
+    
     {
         "name": "강남 스포츠 문화센터",
         "address": "서울특별시 강남구 학동로 426",
@@ -337,7 +340,9 @@
             "latitude" : 1.1,
             "latitude" : 1.1
         },
-        "phoneNumber" : "02-2176-0801"
+        "phoneNumber" : "02-2176-0801",
+        "sidoCode" : "11",
+        "sigunguCode" : "230"
     },
     {
         "name": "시립 수서 청소년 센터",
@@ -378,7 +383,9 @@
             "latitude" : 1.1,
             "latitude" : 1.1
         },
-        "phoneNumber" : "02-2226-3611"
+        "phoneNumber" : "02-2226-3611",
+        "sidoCode" : "11",
+        "sigunguCode" : "230"
     },
     {
         "name": "역삼 청소년 수련관",
@@ -425,7 +432,9 @@
             "latitude" : 1.1,
             "latitude" : 1.1
         },
-        "phoneNumber" : "02-550-3600"
+        "phoneNumber" : "02-550-3600",
+        "sidoCode" : "11",
+        "sigunguCode" : "230"
     },
     {
         "name": "온조 대왕 문화 체육관",
