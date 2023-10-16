@@ -308,11 +308,11 @@ enum UlsanSigungu: String, Sigungu {
 enum SejongSigungu: String, Sigungu {
     static var sido: Sido = .sejong
     
-    case Gu = ""
+    case sejongsi = "010"
     var name: String {
         switch self {
-        case .Gu:
-            return ""
+        case .sejongsi:
+            return "세종시"
         }
     }
 }
