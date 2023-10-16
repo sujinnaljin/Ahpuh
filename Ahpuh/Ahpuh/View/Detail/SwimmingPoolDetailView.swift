@@ -93,6 +93,18 @@ struct SwimmingPoolDetailView: View {
                             }
                         }
                     }
+                    if let phoneNumber = swimmingPool.phoneNumber {
+                        Spacer().frame(height: 10)
+                        Text("전화 번호")
+                            .font(.callout).bold()
+                        Button {
+                            let phoneURL = "tel://" + phoneNumber
+                            guard let url = URL(string: phoneURL) else { return }
+                            UIApplication.shared.open(url)
+                        } label: {
+                            Text(phoneNumber).font(.subheadline)
+                        }
+                    }
                     if let additionalInfo = swimmingPool.additionalInfo,
                        !additionalInfo.isEmpty {
                         Spacer().frame(height: 10)
