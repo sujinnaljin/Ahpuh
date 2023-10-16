@@ -99,11 +99,57 @@ enum SeoulSigungu: String, Sigungu {
 enum BusanSigungu: String, Sigungu {
     static var sido: Sido = .busan
     
-    case Gu = ""
+    case jungGu = "010"
+    case seoGu = "020"
+    case dongGu = "030"
+    case yeongdoGu = "040"
+    case busanjinGu = "050"
+    case dongraeGu = "060"
+    case namGu = "070"
+    case bukGu = "080"
+    case haeundaeGu = "090"
+    case sahaGu = "100"
+    case geumjeongGu = "110"
+    case gangseoGu = "120"
+    case yeonjeGu = "130"
+    case suyeongGu = "140"
+    case sasangGu = "150"
+    case gijangGun = "510"
+    
     var name: String {
         switch self {
-        case .Gu:
-            return ""
+        case .jungGu:
+            return "중구"
+        case .seoGu:
+            return "서구"
+        case .dongGu:
+            return "동구"
+        case .yeongdoGu:
+            return "영도구"
+        case .busanjinGu:
+            return "부산진구"
+        case .dongraeGu:
+            return "동래구"
+        case .namGu:
+            return "남구"
+        case .bukGu:
+            return "북구"
+        case .haeundaeGu:
+            return "해운대구"
+        case .sahaGu:
+            return "사하구"
+        case .geumjeongGu:
+            return "금정구"
+        case .gangseoGu:
+            return "강서구"
+        case .yeonjeGu:
+            return "연제구"
+        case .suyeongGu:
+            return "수영구"
+        case .sasangGu:
+            return "사상구"
+        case .gijangGun:
+            return "기장군"
         }
     }
 }
