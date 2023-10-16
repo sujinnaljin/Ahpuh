@@ -945,7 +945,7 @@
     {
         "name": "서울숲 복합 문화 체육센터",
         "address": "서울특별시 성동구 성수동1가 685-63",
-        "regularHolidays": "매주 일요일",
+        "regularHolidays": "매주 일요일 및 공휴일",
         "operatingHoursPerDay" : {
             "monday": [
                 "12:10 ~ 13:00",
@@ -987,7 +987,14 @@
             "대기번호표 수령 후 1회차(16:20), 2회차(17:50)까지 결제 및 발권 완료시에만 입장 유효",
             "16:20까지 1부 미 입장 인원에 한하여 1부 잔여자리 입장 대기표(61번~) 빠른 번호 소지자부터 1부 입장 가능"
         ],
-        "website" : "https://sports.happysd.or.kr/fmcs/38"
+        "website" : "https://sports.happysd.or.kr/fmcs/38",
+        "coordinate": {
+            "latitude" : 1.1,
+            "latitude" : 1.1
+        },
+        "phoneNumber" : "02-2204-6600",
+        "sidoCode" : "11",
+        "sigunguCode" : "040"
     },
     
     
@@ -1028,6 +1035,11 @@
             "강습 20분 전부터 입장 가능"
         ],
         "website" : "http://www.dd1318.com/page_NFZI81",
+        "coordinate": {
+            "latitude" : 1.1,
+            "latitude" : 1.1
+        },
+        "phoneNumber" : "042-626-7728",
         "sidoCode" : "25",
         "sigunguCode" : "050"
     },
@@ -1070,7 +1082,13 @@
             "운영시간 종료 1시간 전까지 입장 가능",
             "10월 14일 ~ 11월 19일 휴장"
         ],
-        "website" : "https://www.djsiseol.or.kr/portal/sub020503.asp"
-    },
-    
+        "website" : "https://www.djsiseol.or.kr/portal/sub020503.asp",
+        "coordinate": {
+            "latitude" : 1.1,
+            "latitude" : 1.1
+        },
+        "phoneNumber" : "042-280-1000",
+        "sidoCode" : "25",
+        "sigunguCode" : "010"
+    }
 ]
