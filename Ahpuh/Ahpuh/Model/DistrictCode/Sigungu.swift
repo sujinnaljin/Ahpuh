@@ -531,11 +531,53 @@ enum GangwonSigungu: String, Sigungu {
 enum ChungbukSigungu: String, Sigungu {
     static let sido: Sido = .chungbuk
     
-    case Gu = ""
+    case chungjuSi = "020"
+    case jecheonSi = "030"
+    
+    case cheongjuSi_sangdangGu = "041"
+    case cheongjuSi_seowonGu = "042"
+    case cheongjuSi_heungdeokGu = "043"
+    case cheongjuSi_cheongwonGu = "044"
+    
+    case boeunGun = "520"
+    case okcheonGun = "530"
+    case yeongdongGun = "540"
+    case jincheonGun = "550"
+    case goesanGun = "560"
+    case eumseongGun = "570"
+    case danyangGun = "580"
+    case jeungpyeongGun = "590"
+    
     var name: String {
         switch self {
-        case .Gu:
-            return ""
+        case .chungjuSi:
+            return "청주시"
+        case .jecheonSi:
+            return "제천시"
+        case .cheongjuSi_sangdangGu:
+            return "청주시 상당구"
+        case .cheongjuSi_seowonGu:
+            return "청주시 서원구"
+        case .cheongjuSi_heungdeokGu:
+            return "청주시 흥덕구"
+        case .cheongjuSi_cheongwonGu:
+            return "청주시 청원구"
+        case .boeunGun:
+            return "보은군"
+        case .okcheonGun:
+            return "옥천군"
+        case .yeongdongGun:
+            return "영동군"
+        case .jincheonGun:
+            return "진천군"
+        case .goesanGun:
+            return "괴산군"
+        case .eumseongGun:
+            return "음성군"
+        case .danyangGun:
+            return "단양군"
+        case .jeungpyeongGun:
+            return "증평군"
         }
     }
 }
