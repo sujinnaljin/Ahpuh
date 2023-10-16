@@ -320,11 +320,145 @@ enum SejongSigungu: String, Sigungu {
 enum GyeonggiSigungu: String, Sigungu {
     static var sido: Sido = .gyeonggi
     
-    case Gu = ""
+    case suwonSi_janganGu = "011"
+    case suwonSi_gwonseonGu = "012"
+    case suwonSi_paldalGu = "013"
+    case suwonSi_yeongtonglGu = "014"
+    
+    case seongnamSi_sujeongGu = "021"
+    case seongnamSi_jungwonGu = "022"
+    case seongnamSi_bundangGu = "023"
+    
+    case uijeongbuSi = "030"
+    
+    case anyangSi_mananGu = "041"
+    case anyangSi_donganGu = "042"
+    
+    case bucheonSi = "050"
+    case gwangmyeongSi = "060"
+    case pyeongtaekSi = "070"
+    case dongducheonSi = "080"
+    
+    case ansanSi_sangnokGu = "091"
+    case ansanSi_danwonGu = "092"
+    
+    case goyangSi_deokyangGu = "101"
+    case goyangSi_ilsandongGu = "103"
+    case goyangSi_ilsanseoGu = "104"
+    
+    case gwacheonSi = "110"
+    case guriSi = "120"
+    case namyangjuSi = "130"
+    case osanSi = "140"
+    case siheungSi = "150"
+    case gunpoSi = "160"
+    case uiwangSi = "170"
+    case hanamSi = "180"
+    
+    case yonginSi_cheoinGu = "191"
+    case yonginSi_giheungGu = "192"
+    case yonginSi_sujiGu = "193"
+    
+    case pajuSi = "200"
+    case icheonSi = "210"
+    case anseongSi = "220"
+    case gimpoSi = "230"
+    case hwaseongSi = "240"
+    case gwangjuSi = "250"
+    case yangjuSi = "260"
+    case pocheonSi = "270"
+    case yeojuSi = "280"
+    
+    case yeoncheonGun = "550"
+    case gapyeongGun = "570"
+    case yangpyeongGun = "580"
+    
     var name: String {
         switch self {
-        case .Gu:
-            return ""
+        case .suwonSi_janganGu:
+            return "수원시 장안구"
+        case .suwonSi_gwonseonGu:
+            return "수원시 권선구"
+        case .suwonSi_paldalGu:
+            return "수원시 팔달구"
+        case .suwonSi_yeongtonglGu:
+            return "수원시 영통구"
+        case .seongnamSi_sujeongGu:
+            return "성남시 수정구"
+        case .seongnamSi_jungwonGu:
+            return "성남시 중원구"
+        case .seongnamSi_bundangGu:
+            return "성남시 분당구"
+        case .uijeongbuSi:
+            return "의정부시"
+        case .anyangSi_mananGu:
+            return "안양시 만안구"
+        case .anyangSi_donganGu:
+            return "안양시 동안구"
+        case .bucheonSi:
+            return "부천시"
+        case .gwangmyeongSi:
+            return "광명시"
+        case .pyeongtaekSi:
+            return "평택시"
+        case .dongducheonSi:
+            return "동두천시"
+        case .ansanSi_sangnokGu:
+            return "안산시 상록구"
+        case .ansanSi_danwonGu:
+            return "안산시 단원구"
+        case .goyangSi_deokyangGu:
+            return "고양시 덕양구"
+        case .goyangSi_ilsandongGu:
+            return "고양시 일산동구"
+        case .goyangSi_ilsanseoGu:
+            return "고양시 일산서구"
+        case .gwacheonSi:
+            return "과천시"
+        case .guriSi:
+            return "구리시"
+        case .namyangjuSi:
+            return "남양주시"
+        case .osanSi:
+            return "오산시"
+        case .siheungSi:
+            return "시흥시"
+        case .gunpoSi:
+            return "군포시"
+        case .uiwangSi:
+            return "의왕시"
+        case .hanamSi:
+            return "하남시"
+        case .yonginSi_cheoinGu:
+            return "용인시 처인구"
+        case .yonginSi_giheungGu:
+            return "용인시 기흥구"
+        case .yonginSi_sujiGu:
+            return "용인시 수지구"
+        case .pajuSi:
+            return "파주시"
+        case .icheonSi:
+            return "이천시"
+        case .anseongSi:
+            return "안성시"
+        case .gimpoSi:
+            return "김포시"
+        case .hwaseongSi:
+            return "화성시"
+        case .gwangjuSi:
+            return "광주시"
+        case .yangjuSi:
+            return "양주시"
+        case .pocheonSi:
+            return "포천시"
+        case .yeojuSi:
+            return "여주시"
+        case .yeoncheonGun:
+            return "연천군"
+        case .gapyeongGun:
+            return "가평군"
+        case .yangpyeongGun:
+            return "양평군"
         }
     }
 }
