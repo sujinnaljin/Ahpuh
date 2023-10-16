@@ -115,6 +115,13 @@ struct SwimmingPoolDetailView: View {
                                 .font(.subheadline)
                         }
                     }
+                    
+                    VStack(alignment: .leading, spacing: 5) {
+                        Spacer().frame(height: 20)
+                        Text("현재 시점과 다른 정보가 있을 수 있어요! 정확한 정보는 상단의 사이트 링크를 확인해주세요.")
+                        Text("수정이나 제안이 필요한가요? [이곳](https://forms.gle/kNLwLY9kDpiGHeX9A)에 제보해주세요.")
+                    }
+                    .font(.caption)
                 }
             }
         }
