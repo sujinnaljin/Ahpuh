@@ -436,6 +436,12 @@
         "sidoCode" : "11",
         "sigunguCode" : "230"
     },
+    
+    
+    
+    
+    
+    
     {
         "name": "온조 대왕 문화 체육관",
         "address": "서울특별시 강동구 고덕로 285",
@@ -479,7 +485,9 @@
             "latitude" : 1.1,
             "latitude" : 1.1
         },
-        "phoneNumber" : "02-2045-7800"
+        "phoneNumber" : "02-2045-7800",
+        "sidoCode" : "11",
+        "sigunguCode" : "250"
     },
     {
         "name": "강동 유소년 스포츠센터",
@@ -521,7 +529,9 @@
             "latitude" : 1.1,
             "latitude" : 1.1
         },
-        "phoneNumber" : "02-3428-7979"
+        "phoneNumber" : "02-3428-7979",
+        "sidoCode" : "11",
+        "sigunguCode" : "250"
     },
     {
         "name": "고덕 어울림 수영장",
@@ -562,8 +572,13 @@
             "latitude" : 1.1,
             "latitude" : 1.1
         },
-        "phoneNumber" : "02-2045-7630"
+        "phoneNumber" : "02-2045-7630",
+        "sidoCode" : "11",
+        "sigunguCode" : "250"
     },
+    
+    
+    
     {
         "name": "강북 문화 예술회관 수영장",
         "address": "서울특별시 강북구 삼각산로 85",
