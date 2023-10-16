@@ -97,7 +97,7 @@ enum SeoulSigungu: String, Sigungu {
 }
 
 enum BusanSigungu: String, Sigungu {
-    static var sido: Sido = .busan
+    static let sido: Sido = .busan
     
     case jungGu = "010"
     case seoGu = "020"
@@ -155,7 +155,7 @@ enum BusanSigungu: String, Sigungu {
 }
 
 enum DaeguSigungu: String, Sigungu {
-    static var sido: Sido = .daegu
+    static let sido: Sido = .daegu
     
     case jungGu = "010"
     case dongGu = "020"
@@ -189,7 +189,7 @@ enum DaeguSigungu: String, Sigungu {
 }
 
 enum IncheonSigungu: String, Sigungu {
-    static var sido: Sido = .incheon
+    static let sido: Sido = .incheon
     
     case jungGu = "010"
     case dongGu = "020"
@@ -229,7 +229,7 @@ enum IncheonSigungu: String, Sigungu {
 }
 
 enum GwangjuSigungu: String, Sigungu {
-    static var sido: Sido = .gwangju
+    static let sido: Sido = .gwangju
   
     case dongGu = "010"
     case seoGu = "020"
@@ -255,7 +255,7 @@ enum GwangjuSigungu: String, Sigungu {
 
 
 enum DaejeonSigungu: String, Sigungu {
-    static var sido: Sido = .daejeon
+    static let sido: Sido = .daejeon
     
     case dongGu = "010"
     case jungGu = "020"
@@ -281,7 +281,7 @@ enum DaejeonSigungu: String, Sigungu {
 
 
 enum UlsanSigungu: String, Sigungu {
-    static var sido: Sido = .ulsan
+    static let sido: Sido = .ulsan
     
     case jungGu = "010"
     case namGu = "020"
@@ -306,7 +306,7 @@ enum UlsanSigungu: String, Sigungu {
 }
 
 enum SejongSigungu: String, Sigungu {
-    static var sido: Sido = .sejong
+    static let sido: Sido = .sejong
     
     case sejongsi = "010"
     var name: String {
@@ -318,7 +318,7 @@ enum SejongSigungu: String, Sigungu {
 }
 
 enum GyeonggiSigungu: String, Sigungu {
-    static var sido: Sido = .gyeonggi
+    static let sido: Sido = .gyeonggi
     
     case suwonSi_janganGu = "011"
     case suwonSi_gwonseonGu = "012"
@@ -464,7 +464,7 @@ enum GyeonggiSigungu: String, Sigungu {
 }
 
 enum GangwonSigungu: String, Sigungu {
-    static var sido: Sido = .chungbuk
+    static let sido: Sido = .chungbuk
     
     case Gu = ""
     var name: String {
@@ -476,7 +476,7 @@ enum GangwonSigungu: String, Sigungu {
 }
 
 enum ChungbukSigungu: String, Sigungu {
-    static var sido: Sido = .chungbuk
+    static let sido: Sido = .chungbuk
     
     case Gu = ""
     var name: String {
@@ -488,7 +488,7 @@ enum ChungbukSigungu: String, Sigungu {
 }
 
 enum ChungnnamSigungu: String, Sigungu {
-    static var sido: Sido = .chungnnam
+    static let sido: Sido = .chungnnam
     
     case Gu = ""
     var name: String {
@@ -500,7 +500,7 @@ enum ChungnnamSigungu: String, Sigungu {
 }
 
 enum JeonbukSigungu: String, Sigungu {
-    static var sido: Sido = .jeonbuk
+    static let sido: Sido = .jeonbuk
     
     case Gu = ""
     var name: String {
@@ -512,7 +512,7 @@ enum JeonbukSigungu: String, Sigungu {
 }
 
 enum JeonnamSigungu: String, Sigungu {
-    static var sido: Sido = .jeonnam
+    static let sido: Sido = .jeonnam
     
     case Gu = ""
     var name: String {
@@ -524,7 +524,7 @@ enum JeonnamSigungu: String, Sigungu {
 }
 
 enum GyeongbukSigungu: String, Sigungu {
-    static var sido: Sido = .gyeongbuk
+    static let sido: Sido = .gyeongbuk
     
     case Gu = ""
     var name: String {
@@ -536,7 +536,7 @@ enum GyeongbukSigungu: String, Sigungu {
 }
 
 enum GyeongnamSigungu: String, Sigungu {
-    static var sido: Sido = .gyeongnam
+    static let sido: Sido = .gyeongnam
     
     case Gu = ""
     var name: String {
@@ -548,7 +548,7 @@ enum GyeongnamSigungu: String, Sigungu {
 }
 
 enum JejuSigungu: String, Sigungu {
-    static var sido: Sido = .jeju
+    static let sido: Sido = .jeju
     
     case Gu = ""
     var name: String {
