@@ -609,11 +609,76 @@ enum JeonbukSigungu: String, Sigungu {
 enum JeonnamSigungu: String, Sigungu {
     static let sido: Sido = .jeonnam
     
-    case Gu = ""
+    case mokpoSi = "010"
+    case yeosuSi = "020"
+    case suncheonSi = "030"
+    case najuSi = "040"
+    case gwangyangSi = "060"
+    
+    case damyangGun = "510"
+    case gokseongGun = "520"
+    case guryeGun = "530"
+    case goheungGun = "550"
+    case boseongGun = "560"
+    case hwasunGun = "570"
+    case jangheungGun = "580"
+    case gangjinGun = "590"
+    case haenamGun = "600"
+    case yeongamGun = "610"
+    case muanGun = "620"
+    case hampyeongGun = "630"
+    case yeonggwangGun = "640"
+    case jangseongGun = "650"
+    case wandoGun = "660"
+    case jindoGun = "670"
+    case sinanGun = "680"
+    
     var name: String {
         switch self {
-        case .Gu:
-            return ""
+        case .mokpoSi:
+            return "목포시"
+        case .yeosuSi:
+            return "여수시"
+        case .suncheonSi:
+            return "순천시"
+        case .najuSi:
+            return "나주시"
+        case .gwangyangSi:
+            return "광양시"
+        case .damyangGun:
+            return "담양군"
+        case .gokseongGun:
+            return "곡성군"
+        case .guryeGun:
+            return "구례군"
+        case .goheungGun:
+            return "고흥군"
+        case .boseongGun:
+            return "보성군"
+        case .hwasunGun:
+            return "화순군"
+        case .jangheungGun:
+            return "장흥군"
+        case .gangjinGun:
+            return "강진군"
+        case .haenamGun:
+            return "해남군"
+        case .yeongamGun:
+            return "영암군"
+        case .muanGun:
+            return "무안군"
+        case .hampyeongGun:
+            return "함평군"
+        case .yeonggwangGun:
+            return "영광군"
+        case .jangseongGun:
+            return "장성군"
+        case .wandoGun:
+            return "완도군"
+        case .jindoGun:
+            return "진도군"
+        case .sinanGun:
+            return "신안군"
         }
     }
 }
