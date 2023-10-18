@@ -24,8 +24,8 @@ struct SidoSwimmingPoolListView: View {
         var swimmingPoolsBySigunguName: [String : [SwimmingPool]] = [:]
         swimmingPoolsBySigunguCode
             .forEach { sigunguCode, swimmingPoolsInSigungu in
-                guard let sigunguName = SigunguNameGenerator.name(bySidoCode: swimmingPoolsInSigungu.first?.sidoCode,
-                                                                  sigunguCode: sigunguCode) else {
+                guard let sigunguName = SigunguNameGenerator.name(sigunguCode: sigunguCode,
+                                                                  sidoCode: swimmingPoolsInSigungu.first?.sidoCode) else {
                     return
                 }
                 swimmingPoolsBySigunguName[sigunguName] = swimmingPoolsInSigungu
