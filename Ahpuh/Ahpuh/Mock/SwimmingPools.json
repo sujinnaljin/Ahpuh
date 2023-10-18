@@ -1,6 +1,6 @@
 [
     {
-        "name": "올림픽 공원 수영장Test"
+        "name": "올림픽 공원 수영장",
         "address": "서울 송파구 올림픽로 424",
         "regularHolidays": "매월 두 번째 일요일",
         "operatingHoursPerDay" : {
