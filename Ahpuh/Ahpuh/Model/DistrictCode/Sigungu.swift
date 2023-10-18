@@ -633,11 +633,77 @@ enum GyeongbukSigungu: String, Sigungu {
 enum GyeongnamSigungu: String, Sigungu {
     static let sido: Sido = .gyeongnam
     
-    case Gu = ""
+    case jinjuSi = "030"
+    case tongyeongSi = "050"
+    case sacheonSi = "060"
+    case gimhaeSi = "070"
+    case miryangSi = "080"
+    case geojeSi = "090"
+    case yangsanSi = "100"
+
+    case changwonSi_uichangGu = "111"
+    case changwonSi_seongsanGu = "112"
+    case changwonSi_masanhappoGu = "113"
+    case changwonSi_masanhoewonGu = "114"
+    case changwonSi_jinhaeGu = "115"
+    
+    case uiryeongGun = "510"
+    case hamanGun = "520"
+    case changnyeongGun = "530"
+    case goseongGun = "540"
+    case namhaeGun = "550"
+    case hadongGun = "560"
+    case samcheongGun = "570"
+    case hamyangGun = "580"
+    case geochangGun = "590"
+    case hapcheonGun = "600"
+
     var name: String {
         switch self {
-        case .Gu:
-            return ""
+        case .jinjuSi:
+            return "진주시"
+        case .tongyeongSi:
+            return "통영시"
+        case .sacheonSi:
+            return "사천시"
+        case .gimhaeSi:
+            return "김해시"
+        case .miryangSi:
+            return "밀양시"
+        case .geojeSi:
+            return "거제시"
+        case .yangsanSi:
+            return "양산시"
+        case .changwonSi_uichangGu:
+            return "창원시 의창구"
+        case .changwonSi_seongsanGu:
+            return "창원시 성산구"
+        case .changwonSi_masanhappoGu:
+            return "창원시 마산합포구"
+        case .changwonSi_masanhoewonGu:
+            return "창원시 마회원구"
+        case .changwonSi_jinhaeGu:
+            return "창원시 진해구"
+        case .uiryeongGun:
+            return "의령군"
+        case .hamanGun:
+            return "군"
+        case .changnyeongGun:
+            return "창녕군"
+        case .goseongGun:
+            return "고성군"
+        case .namhaeGun:
+            return "남해군"
+        case .hadongGun:
+            return "하동군"
+        case .samcheongGun:
+            return "산청군"
+        case .hamyangGun:
+            return "함양군"
+        case .geochangGun:
+            return "거창군"
+        case .hapcheonGun:
+            return "합천군"
         }
     }
 }
