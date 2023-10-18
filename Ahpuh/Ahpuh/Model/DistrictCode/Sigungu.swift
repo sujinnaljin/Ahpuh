@@ -916,9 +916,9 @@ enum GyeongnamSigungu: String, Sigungu {
         case .uiryeongGun:
             return "의령군"
         case .hamanGun:
-            return "군"
+            return "함안군"
         case .changnyeongGun:
-            return "창녕군"
+            return "창녕군"
         case .goseongGun:
             return "고성군"
         case .namhaeGun:
