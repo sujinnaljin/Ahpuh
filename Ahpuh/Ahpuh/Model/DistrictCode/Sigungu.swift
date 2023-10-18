@@ -585,11 +585,59 @@ enum ChungbukSigungu: String, Sigungu {
 enum ChungnnamSigungu: String, Sigungu {
     static let sido: Sido = .chungnnam
     
-    case Gu = ""
+    case cheonanSi_dongnamGu = "011"
+    case cheonanSi_seobukgu = "012"
+    
+    case gongjuSi = "020"
+    case boryeongSi = "030"
+    case asanSi = "040"
+    case seosanSi = "050"
+    case nonsanSi = "060"
+    case gyeryongSi = "070"
+    case dangjinSi = "080"
+    
+    case geumsanGun = "510"
+    case buyeoGun = "530"
+    case seocheonGun = "540"
+    case cheongyangGun = "550"
+    case hongseongGun = "560"
+    case yesanGun = "570"
+    case taeanGun = "580"
+    
     var name: String {
         switch self {
-        case .Gu:
-            return ""
+        case .cheonanSi_dongnamGu:
+            return "천안시 동남구"
+        case .cheonanSi_seobukgu:
+            return "천안시 서북구"
+        case .gongjuSi:
+            return "공주시"
+        case .boryeongSi:
+            return "보령시"
+        case .asanSi:
+            return "아산시"
+        case .seosanSi:
+            return "서산시"
+        case .nonsanSi:
+            return "논산시"
+        case .gyeryongSi:
+            return "계룡시"
+        case .dangjinSi:
+            return "당진시"
+        case .geumsanGun:
+            return "금산군"
+        case .buyeoGun:
+            return "부여군"
+        case .seocheonGun:
+            return "서천군"
+        case .cheongyangGun:
+            return "청양군"
+        case .hongseongGun:
+            return "홍성군"
+        case .yesanGun:
+            return "예산군"
+        case .taeanGun:
+            return "태안군"
         }
     }
 }
