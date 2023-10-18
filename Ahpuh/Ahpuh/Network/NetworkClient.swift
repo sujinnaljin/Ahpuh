@@ -8,8 +8,7 @@
 import Foundation
 
 struct NetworkClient {
-    
-    private let dataStoreUrl = "https://raw.githubusercontent.com/sujinnaljin/Ahpuh/main/SwimmingPools.json"
+    private let dataStoreUrl = "https://raw.githubusercontent.com/sujinnaljin/Ahpuh/main/Ahpuh/Ahpuh/Mock/SwimmingPools.json"
     
     func fetchSwimmingPools() async throws -> [SwimmingPool] {
         let url = URL(string: dataStoreUrl)!
