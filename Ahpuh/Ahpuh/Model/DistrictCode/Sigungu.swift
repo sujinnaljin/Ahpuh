@@ -597,11 +597,56 @@ enum ChungnnamSigungu: String, Sigungu {
 enum JeonbukSigungu: String, Sigungu {
     static let sido: Sido = .jeonbuk
     
-    case Gu = ""
+    case jeonjuSi_wansanGu = "011"
+    case jeonjuSi_deokjinGu = "012"
+    
+    case gunsanSi = "020"
+    case iksanSi = "030"
+    case jeongeupSi = "040"
+    case namwonSi = "050"
+    case gimjeSi = "060"
+    
+    case wanjuGun = "510"
+    case jinanGun = "520"
+    case mujuGun = "530"
+    case jangsuGun = "540"
+    case imsilGun = "550"
+    case sunchangGun = "560"
+    case gochangGun = "570"
+    case buanGun = "580"
+
     var name: String {
         switch self {
-        case .Gu:
-            return ""
+        case .jeonjuSi_wansanGu:
+            return "전주시 완산구"
+        case .jeonjuSi_deokjinGu:
+            return "전주시 덕진구"
+        case .gunsanSi:
+            return "군산시"
+        case .iksanSi:
+            return "익산시"
+        case .jeongeupSi:
+            return "정읍시"
+        case .namwonSi:
+            return "남원시"
+        case .gimjeSi:
+            return "김제시"
+        case .wanjuGun:
+            return "완주ㅜ군"
+        case .jinanGun:
+            return "진안군"
+        case .mujuGun:
+            return "무주군"
+        case .jangsuGun:
+            return "장수군"
+        case .imsilGun:
+            return "임실군"
+        case .sunchangGun:
+            return "순창군"
+        case .gochangGun:
+            return "고창군"
+        case .buanGun:
+            return "부안군"
         }
     }
 }
