@@ -940,6 +940,217 @@
     },
     
     
+    {
+        "name": "코오롱스포렉스 (방배 열린 문화센터)",
+        "website" : "https://bb.sporex.com/sub_branch/list_v.php?number=12",
+        "address": "서울특별시 서초구 서초대로70길 32",
+        "phoneNumber" : "02-580-8200",
+        "regularHolidays": "",
+        "operatingHoursPerDay" : {
+            "monday": [
+                "1부 : 08:00 ~ 08:50"
+            ],
+            "tuesday": [
+                "1부 : 08:00 ~ 08:50",
+                "2부 : 13:00 ~ 13:50"
+            ],
+            "wednesday": [
+                "1부 : 08:00 ~ 08:50"
+            ],
+            "thursday": [
+                "1부 : 08:00 ~ 08:50",
+                "2부 : 13:00 ~ 13:50"
+            ],
+            "friday": [
+                "1부 : 08:00 ~ 08:50"
+            ],
+            "saturday": [
+                "1부 : 09:30~11:30",
+                "2부 : 12:30~14:30",
+                "3부 : 15:30~17:30"
+            ],
+            "sunday": [
+                "1부 : 09:30~11:30",
+                "2부 : 12:30~14:30",
+                "3부 : 15:30~17:30"
+            ]
+        },
+        "cleaningTime" : "",
+        "fees": {
+            "평일 성인": 3300,
+            "주말 성인": 5500
+        },
+        "additionalInfo" : [
+
+        ],
+        
+        "coordinate": {
+            "latitude" : 1.1,
+            "latitude" : 1.1
+        },
+        "sidoCode" : "11",
+        "sigunguCode" : "220"
+    },
+    {
+        "name": "언남 문화 체육센터",
+        "website" : "http://www.eonnamcscenter.com/수영",
+        "address": "서울 서초구 동산로13길 35 언남문화체육센터",
+        "phoneNumber" : "02-577-7718",
+        "regularHolidays": "매주 일요일 및 공휴일",
+        "operatingHoursPerDay" : {
+            "monday": [
+               "12:00~13:50",
+               "18:00~18:50"
+            ],
+            "tuesday": [
+                "12:00~13:50",
+                "18:00~18:50"
+            ],
+            "wednesday": [
+                "12:00~13:50",
+                "18:00~18:50"
+            ],
+            "thursday": [
+                "12:00~13:50",
+                "18:00~18:50"
+            ],
+            "friday": [
+                "12:00~13:50",
+                "18:00~18:50"
+            ],
+            "saturday": [
+               "(1부) 10:00~12:30",
+               "(2부) 14:00~17:50"
+            ],
+            "sunday": [
+               
+            ]
+        },
+        "cleaningTime" : "",
+        "fees": {
+            "성인" : 6000
+        },
+        "additionalInfo" : [
+
+        ],
+        
+        "coordinate": {
+            "latitude" : 1.1,
+            "latitude" : 1.1
+        },
+        "sidoCode" : "11",
+        "sigunguCode" : "220"
+    },
+    {
+        "name": "서초 종합 체육관",
+        "website" : "https://seochosc.com/pages/gallery2",
+        "address": "서울 서초구 양재대로12길 73-48 서초종합체육관",
+        "phoneNumber" : "02-577-9600",
+        "regularHolidays": "매월 둘째, 넷째 일요일",
+        "operatingHoursPerDay" : {
+            "monday": [
+               "08:00~08:50",
+               "12:00~13:50",
+               "18:00~18:50",
+               "20:50~21:40"
+            ],
+            "tuesday": [
+                "08:00~08:50",
+                "12:00~13:50",
+                "18:00~18:50",
+                "20:50~21:40"
+            ],
+            "wednesday": [
+                "08:00~08:50",
+                "12:00~13:50",
+                "18:00~18:50",
+                "20:50~21:40"
+            ],
+            "thursday": [
+                "08:00~08:50",
+                "12:00~13:50",
+                "18:00~18:50",
+                "20:50~21:40"
+            ],
+            "friday": [
+                "08:00~08:50",
+                "12:00~13:50",
+                "18:00~18:50",
+                "20:50~21:40"
+            ],
+            "saturday": [
+                "09:30~11:30",
+                "13:00~15:00",
+                "15:30~17:30"
+            ],
+            "sunday": [
+                "09:30~11:30",
+                "13:00~15:00",
+                "15:30~17:30"
+            ]
+        },
+        "cleaningTime" : "",
+        "fees": {
+            "평일 성인": 5500,
+            "주말 성인": 6000
+        },
+        "additionalInfo" : [
+            "공휴일 운영 시간 : 주말과 동일"
+        ],
+        
+        "coordinate": {
+            "latitude" : 1.1,
+            "latitude" : 1.1
+        },
+        "sidoCode" : "11",
+        "sigunguCode" : "220"
+    },
+    {
+        "name": "서초구민 체육 센터",
+        "website" : "http://www.seochoymca.com/자유이용",
+        "address": "서울특별시 서초구 사평대로 55",
+        "phoneNumber" : "02-591-6060",
+        "regularHolidays": "매월 넷째, 다섯째 일요일 및 공휴일",
+        "operatingHoursPerDay" : {
+            "monday": [
+                "일일 회원 입장 불가"
+            ],
+            "tuesday": [
+                "12:00～12:50"
+            ],
+            "wednesday": [
+                "일일 회원 입장 불가"
+            ],
+            "thursday": [
+                "12:00～12:50"
+            ],
+            "friday": [
+                "일일 회원 입장 불가"
+            ],
+            "saturday": [
+                "일일 회원 입장 불가"
+            ],
+            "sunday": [
+                "10:00～12:00",
+                "13:30～15:30"
+            ]
+        },
+        "cleaningTime" : "",
+        "fees": {
+            "평일 성인": 3300,
+            "주말 성인": 6000
+        },
+        "additionalInfo" : [
+            "일요일 운영 정보 정확하지 않음. 별도 문의 권장"
+        ],
+        
+        "coordinate": {
+            "latitude" : 1.1,
+            "latitude" : 1.1
+        },
+        "sidoCode" : "11",
+        "sigunguCode" : "220"
+    },
     
     
     {

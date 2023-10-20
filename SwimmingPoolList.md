@@ -1,5 +1,7 @@
 [http://kswim.co.kr/bbs/board.php?bo_table=SwimmingPool&sca=%EC%84%9C%EC%9A%B8&sfl=wr_1&stx=%EC%86%A1%ED%8C%8C%EA%B5%AC&sop=and&page=1](http://kswim.co.kr/bbs/board.php?bo_table=SwimmingPool&sca=서울&sfl=wr_1&stx=송파구&sop=and&page=1)
 
+https://sports.seoul.go.kr/main/facilities/facilities_view.do?ft_idx=1007
+
 국공립 수영장 위주로 차차 업데이트 예정입니다
 
 # 서울
@@ -18,7 +20,11 @@
 - 동작구
 - 마포구
 - 서대문구
-- 서초구
+- ~~서초구~~
+  - ~~코오롱 스포렉스 (방배 열린 문화 센터)~~
+  - ~~언남 문화 체육센터~~
+  - ~~서초 종합 체육관~~
+  - ~~서초구민 체육 센터~~
 - 성동구
 - 성북구
 - ~~송파구~~
