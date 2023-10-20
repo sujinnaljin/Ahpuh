@@ -21,7 +21,7 @@ struct SwimmingPoolListView: View {
             return nil
         }
         if error is JsonParserError {
-             return "개발자가 데이터를 잘못 넣어서 문제가 발생했어요! 😵\n수정할 동안 기본으로 저장된 데이터를 보여드릴게요."
+            return "개발자가 데이터를 잘못 넣어서 문제가 발생했어요! 😵\n수정할 동안 기본으로 저장된 데이터를 보여드릴게요."
         } else {
             return "네트워크 등의 문제가 발생했어요! 😵\n대신 기본으로 저장된 데이터를 보여드릴게요."
         }
@@ -64,6 +64,10 @@ struct SwimmingPoolListView: View {
                         Text("지역별 수영장")
                             .font(.title2)
                             .fontWeight(.semibold)
+                    } footer: {
+                        Text("앞으로 더 많은 수영장 정보가 추가될 예정이에요!\n먼저 추가되길 원하는 지역이 있다면 앱스토어에서 댓글을 남겨주세요 ☺️")
+                            .font(.footnote)
+                            .padding(.top, 16)
                     }
                 }
             }
