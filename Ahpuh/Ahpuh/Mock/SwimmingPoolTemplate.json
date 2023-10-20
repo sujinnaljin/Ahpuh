@@ -1,6 +1,8 @@
 {
     "name": "",
+    "website" : "",
     "address": "",
+    "phoneNumber" : "",
     "regularHolidays": "",
     "operatingHoursPerDay" : {
         "monday": [
@@ -32,12 +34,11 @@
     "additionalInfo" : [
 
     ],
-    "website" : "",
+    
     "coordinate": {
         "latitude" : 1.1,
         "latitude" : 1.1
     },
-    "phoneNumber" : "",
-    "sidoCode" : 1,
-    "sigunguCode" 1:
+    "sidoCode" : "",
+    "sigunguCode" : ""
 }
