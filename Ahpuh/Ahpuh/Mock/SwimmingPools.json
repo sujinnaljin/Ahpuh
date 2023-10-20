@@ -1248,5 +1248,379 @@
         "sidoCode" : "25",
         "sigunguCode" : "010"
     },
+    {
+        "name": "도마실 국민 체육센터",
+        "address": "대전 서구 유등로 235",
+        "regularHolidays": "매주 일요일, 국경일, 명절 연휴",
+        "operatingHoursPerDay" : {
+            "monday": [
+               "16:00~18:50"
+            ],
+            "tuesday": [
+                "14:00~18:50"
+            ],
+            "wednesday": [
+                "06:00~07:50",
+                "09:00~11:50",
+                "18:00~20:50"
+            ],
+            "thursday": [
+                "14:00~18:50"
+            ],
+            "friday": [
+                "16:00~18:50"
+            ],
+            "saturday": [
+                "06:00~11:50",
+                "14:00~17:30"
+            ],
+            "sunday": [
+               
+            ]
+        },
+        "cleaningTime" : "",
+        "fees": {
+            "성인": 4300
+        },
+        "additionalInfo" : [
+
+        ],
+        "website" : "https://www.seogu.go.kr/prog/fclty/tour/sub03_03/02/view.do?fcltyNo=15",
+        "coordinate": {
+            "latitude" : 1.1,
+            "latitude" : 1.1
+        },
+        "phoneNumber" : "042-582-5556",
+        "sidoCode" : "25",
+        "sigunguCode" : "030"
+    },
+    {
+        "name": "서구 건강 체련관",
+        "address": "대전광역시 서구 둔산서로 100",
+        "regularHolidays": "매주 일요일 및 법정 공휴일",
+        "operatingHoursPerDay" : {
+            "monday": [
+               "08:00 ~09:00"
+            ],
+            "tuesday": [
+                "08:00 ~09:00"
+            ],
+            "wednesday": [
+                "06:00~11:30",
+                "16:00~20:00"
+            ],
+            "thursday": [
+                "08:00 ~09:00"
+            ],
+            "friday": [
+                "08:00 ~09:00"
+            ],
+            "saturday": [
+                "06:00 ~ 11:00"
+            ],
+            "sunday": [
+               
+            ]
+        },
+        "cleaningTime" : "",
+        "fees": {
+            "성인": 2000
+        },
+        "additionalInfo" : [
+            "수요일 제외하고 운영 시간 정확하지 않음. 방문 전 전화 확인 필요."
+        ],
+        "website" : "http://www.skwelfare.or.kr/~swimming_pool",
+        "coordinate": {
+            "latitude" : 1.1,
+            "latitude" : 1.1
+        },
+        "phoneNumber" : "042-488-3054",
+        "sidoCode" : "25",
+        "sigunguCode" : "030"
+    },
+    {
+        "name": "남선 공원 종합 체육관",
+        "address": "대전광역시 서구 남선로 66",
+        "regularHolidays": "",
+        "operatingHoursPerDay" : {
+            "monday": [
+               "12:00~18:30"
+            ],
+            "tuesday": [
+                "10:00~18:30"
+            ],
+            "wednesday": [
+                "12:00~18:30"
+            ],
+            "thursday": [
+                "10:00~18:30"
+            ],
+            "friday": [
+                "12:00~18:30"
+            ],
+            "saturday": [
+                "10:00~18:30"
+            ],
+            "sunday": [
+                "10:00~18:30"
+            ]
+        },
+        "cleaningTime" : "",
+        "fees": {
+            "성인": 4300
+        },
+        "additionalInfo" : [
+            "공휴일은 주말과 동일한 운영 시간 적용",
+            "7-8월 파도풀 운영 시 파도풀 요금 적용 (10000원)",
+            "코인 락커 500원, 바구니 사용은 무료"
+        ],
+        "website" : "http://www.namsunleports.co.kr/infos/sub_01",
+        "coordinate": {
+            "latitude" : 1.1,
+            "latitude" : 1.1
+        },
+        "phoneNumber" : "042-488-5605",
+        "sidoCode" : "25",
+        "sigunguCode" : "030"
+    },
+    {
+        "name": "대전 올림픽 기념 국민 생활관",
+        "address": "대전광역시 서구 신갈마로230번길 77",
+        "regularHolidays": "2,4,5 번째 일요일 및 법정 공휴일",
+        "operatingHoursPerDay" : {
+            "monday": [
+                "1부 : 06:00~11:00",
+                "2부 : 14:10~17:50",
+                "3부 : 19:00~20:50"
+            ],
+            "tuesday": [
+                "1부 : 06:00~11:00",
+                "2부 : 14:10~16:00",
+                "3부 : 17:00~20:50"
+            ],
+            "wednesday": [
+                "1부 : 06:00~11:00",
+                "2부 : 14:10~17:50",
+                "3부 : 19:00~20:50"
+            ],
+            "thursday": [
+                "1부 : 06:00~11:00",
+                "2부 : 14:10~16:00",
+                "3부 : 17:00~20:50"
+            ],
+            "friday": [
+                "1부 : 06:00~11:00",
+                "2부 : 14:10~17:50",
+                "3부 : 19:00~20:50"
+            ],
+            "saturday": [
+                "1부 : 06:00~11:00",
+                "2부 : 14:30~17:30"
+            ],
+            "sunday": [
+               "1부 : 06:00 ~ 17:30"
+            ]
+        },
+        "cleaningTime" : "화, 목 16~17시",
+        "fees": {
+            "성인": 4300
+        },
+        "additionalInfo" : [
+            "공휴일은 주말과 동일한 운영 시간 적용",
+            "회차별 종료시간 30분전까지 입장 가능"
+        ],
+        "website" : "https://www.djsiseol.or.kr/portal/sub020604.asp",
+        "coordinate": {
+            "latitude" : 1.1,
+            "latitude" : 1.1
+        },
+        "phoneNumber" : "042-610-9500",
+        "sidoCode" : "25",
+        "sigunguCode" : "030"
+    },
+    {
+        "name": "서구 국민 체육 센터",
+        "address": "대전광역시 서구 정림서로 181",
+        "regularHolidays": "매주 월요일",
+        "operatingHoursPerDay" : {
+            "monday": [
+               "15:00 ~ 18:50"
+            ],
+            "tuesday": [
+                "15:00 ~ 18:50"
+            ],
+            "wednesday": [
+                "15:00 ~ 18:50"
+            ],
+            "thursday": [
+                "15:00 ~ 18:50"
+            ],
+            "friday": [
+                "15:00 ~ 18:50"
+            ],
+            "saturday": [
+               "06:00 ~ 17:30"
+            ],
+            "sunday": [
+                "06:00 ~ 17:30"
+            ]
+        },
+        "cleaningTime" : "",
+        "fees": {
+            "성인": 4300
+        },
+        "additionalInfo" : [
+            "공휴일은 주말과 동일한 운영 시간 적용"
+        ],
+        "website" : "http://www.sgsport.co.kr/page/swim001",
+        "coordinate": {
+            "latitude" : 1.1,
+            "latitude" : 1.1
+        },
+        "phoneNumber" : "042-583-8486",
+        "sidoCode" : "25",
+        "sigunguCode" : "030"
+    },
+    {
+        "name": "평송 청소년 문화센터",
+        "address": "대전광역시 서구 둔산대로 201",
+        "regularHolidays": "매주 월요일, 신정, 설날(전후), 근로자의 날, 추석(전후)",
+        "operatingHoursPerDay" : {
+            "monday": [
+               
+            ],
+            "tuesday": [
+               "13:00 ~ 13:50"
+            ],
+            "wednesday": [
+                "13:00 ~ 13:50"
+            ],
+            "thursday": [
+                "13:00 ~ 13:50"
+            ],
+            "friday": [
+                "13:00 ~ 13:50"
+            ],
+            "saturday": [
+                "06:10 ~ 10:50",
+                "13:00 ~ 17:50"
+            ],
+            "sunday": [
+                "06:10 ~ 10:50",
+                "13:00 ~ 17:50"
+            ]
+        },
+        "cleaningTime" : "",
+        "fees": {
+            "성인": 4300
+        },
+        "additionalInfo" : [
+
+        ],
+        "website" : "https://pyoungsong.com/%ec%83%9d%ed%99%9c%ec%b2%b4%ec%9c%a1-%ed%94%84%eb%a1%9c%ea%b7%b8%eb%9e%a8/",
+        "coordinate": {
+            "latitude" : 1.1,
+            "latitude" : 1.1
+        },
+        "phoneNumber" : "042-480-1622",
+        "sidoCode" : "25",
+        "sigunguCode" : "030"
+    },
+    {
+        "name": "기성 종합 복지관",
+        "address": "대전광역시 서구 장안로 54",
+        "regularHolidays": "매월 첫번째, 세번째,다섯 번째 일요일 및 공휴일",
+        "operatingHoursPerDay" : {
+            "monday": [
+                "08:00~09:00",
+                "14:00~19:00"
+            ],
+            "tuesday": [
+                "06:00~12:00",
+                "13:00~20:30"
+            ],
+            "wednesday": [
+                "08:00~09:00",
+                "14:00~19:00"
+            ],
+            "thursday": [
+                "06:00~12:00",
+                "13:00~20:30"
+            ],
+            "friday": [
+                "08:00~09:00",
+                "14:00~19:00"
+            ],
+            "saturday": [
+                "06:00~08:00",
+                "09:00~12:00",
+                "13:00~17:30"
+            ],
+            "sunday": [
+                "06:00~08:00",
+                "09:00~12:00",
+                "13:00~17:30"
+            ]
+        },
+        "cleaningTime" : "",
+        "fees": {
+            "성인": 2000
+        },
+        "additionalInfo" : [
+            "공휴일은 주말과 동일한 운영 시간 적용"
+        ],
+        "website" : "https://www.djsiseol.or.kr/portal/sub040303.asp",
+        "coordinate": {
+            "latitude" : 1.1,
+            "latitude" : 1.1
+        },
+        "phoneNumber" : "042-610-9400",
+        "sidoCode" : "25",
+        "sigunguCode" : "030"
+    },
+    {
+        "name": "관저 다목적 체육관",
+        "address": "대전광역시 서구 관저중로 10",
+        "regularHolidays": "매주 일요일 및 공휴일",
+        "operatingHoursPerDay" : {
+            "monday": [
+               "14:00 ~ 18:50"
+            ],
+            "tuesday": [
+                "14:00 ~ 18:50"
+            ],
+            "wednesday": [
+                "06:00 ~ 12:00",
+                "14:00 ~ 20:50"
+            ],
+            "thursday": [
+                "14:00 ~ 18:50"
+            ],
+            "friday": [
+                "14:00 ~ 18:50"
+            ],
+            "saturday": [
+               "06:00 ~ 17:30"
+            ],
+            "sunday": [
+               
+            ]
+        },
+        "cleaningTime" : "",
+        "fees": {
+            "성인": 4300
+        },
+        "additionalInfo" : [
+
+        ],
+        "website" : "http://sgwsc.co.kr/sub2_1",
+        "coordinate": {
+            "latitude" : 1.1,
+            "latitude" : 1.1
+        },
+        "phoneNumber" : "042-545-6000",
+        "sidoCode" : "25",
+        "sigunguCode" : "030"
+    },
     }
 ]
