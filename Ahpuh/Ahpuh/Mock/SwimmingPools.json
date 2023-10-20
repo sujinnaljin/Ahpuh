@@ -1775,5 +1775,99 @@
         "phoneNumber" : "042-586-8033",
         "sidoCode" : "25",
         "sigunguCode" : "020"
+    },
+    
+    
+    
+    
+    
+    {
+        "name": "울산 중구 수영장",
+        "address": "울산광역시 중구 종가로 305 한국석유공사 지하 1층",
+        "regularHolidays": "매주 월요일, 기타 정부에서 지정한 날",
+        "operatingHoursPerDay" : {
+            "monday": [
+            ],
+            "tuesday": [
+                "06:00~22:00"
+            ],
+            "wednesday": [
+                "06:00~22:00"
+            ],
+            "thursday": [
+                "06:00~22:00"
+            ],
+            "friday": [
+                "06:00~22:00"
+            ],
+            "saturday": [
+               "08:00 ~ 16:00"
+            ],
+            "sunday": [
+                "08:00 ~ 16:00"
+            ]
+        },
+        "cleaningTime" : "평일 14:00~14:50",
+        "fees": {
+            "성인": 5000
+        },
+        "additionalInfo" : [
+            "입장 마감시간은 종료 1시간 전"
+        ],
+        "website" : "https://crs.ujcmc.or.kr/etc/facility_info01.jsp",
+        "coordinate": {
+            "latitude" : 1.1,
+            "latitude" : 1.1
+        },
+        "phoneNumber" : "052-290-7670",
+        "sidoCode" : "26",
+        "sigunguCode" : "010"
+    },
+    {
+        "name": "동천 국민 체육센터",
+        "address": "울산광역시 중구 염포로 85-1 동천국민체육센터",
+        "regularHolidays": "매주 일요일",
+        "operatingHoursPerDay" : {
+            "monday": [
+               "일일 회원 입장 불가"
+            ],
+            "tuesday": [
+                "일일 회원 입장 불가"
+            ],
+            "wednesday": [
+                "일일 회원 입장 불가"
+            ],
+            "thursday": [
+                "일일 회원 입장 불가"
+            ],
+            "friday": [
+                "일일 회원 입장 불가"
+            ],
+            "saturday": [
+                "1회차 07:00~12:00",
+                "2회차 14:00~17:00"
+            ],
+            "sunday": [
+               
+            ]
+        },
+        "cleaningTime" : "",
+        "fees": {
+            "주말 성인": 5000
+        },
+        "additionalInfo" : [
+            "공휴일 운영 시간 : 토요일 운영 시간과 동일",
+            "23년 10월~12월(3개월) 휴장",
+            "이용하실 분은 영업종료 60분전(평일 21:00, 토요일·공휴일 17:00)까지 입장하셔야 합니다."
+        ],
+        "website" : "https://www.uic.or.kr/dcsc/use/use01.do",
+        "coordinate": {
+            "latitude" : 1.1,
+            "latitude" : 1.1
+        },
+        "phoneNumber" : "052-290-7284",
+        "sidoCode" : "26",
+        "sigunguCode" : "010"
+    },
     }
 ]
