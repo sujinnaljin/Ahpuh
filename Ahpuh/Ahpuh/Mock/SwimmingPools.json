@@ -492,7 +492,7 @@
     {
         "name": "강동 유소년 스포츠센터",
         "address": "서울특별시 강동구 강일동 상일로12길 60",
-        "regularHolidays": "",
+        "regularHolidays": "일요일 및 공휴일",
         "operatingHoursPerDay" : {
             "monday": [
                 "일일 회원 입장 불가"
@@ -517,7 +517,7 @@
                 
             ]
         },
-        "cleaningTime" : "일요일 및 공휴일 휴관",
+        "cleaningTime" : "",
         "fees": {
             "성인": 4400
         },
@@ -683,7 +683,7 @@
     {
         "name": "시립 강북 청소년센터",
         "address": "서울특별시 강북구 4.19로 74",
-        "regularHolidays": "",
+        "regularHolidays": "매주 일요일",
         "operatingHoursPerDay" : {
             "monday": [
                 "1부 13:00 ~13:50",
