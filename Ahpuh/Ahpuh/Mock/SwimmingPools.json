@@ -1444,7 +1444,6 @@
         "regularHolidays": "매주 월요일",
         "operatingHoursPerDay" : {
             "monday": [
-               "15:00 ~ 18:50"
             ],
             "tuesday": [
                 "15:00 ~ 18:50"
@@ -1856,7 +1855,7 @@
             "주말 성인": 5000
         },
         "additionalInfo" : [
-            "공휴일 운영 시간 : 토요일 운영 시간과 동일",
+            "공휴일 운영 시간 : 토요일과 동일",
             "23년 10월~12월(3개월) 휴장",
             "이용하실 분은 영업종료 60분전(평일 21:00, 토요일·공휴일 17:00)까지 입장하셔야 합니다."
         ],
@@ -1869,5 +1868,100 @@
         "sidoCode" : "26",
         "sigunguCode" : "010"
     },
+    {
+        "name": "남구 국민 체육센터",
+        "website" : "https://crs.uncmc.or.kr/center/program1_info.jsp",
+        "address": "울산광역시 남구 장생포고래로 288번길 20",
+        "phoneNumber" : "052-226-1979",
+        "regularHolidays": "매주 월요일",
+        "operatingHoursPerDay" : {
+            "monday": [
+                
+            ],
+            "tuesday": [
+                "06:00~14:00",
+                "15:30~21:30"
+            ],
+            "wednesday": [
+                "06:00~14:00",
+                "15:30~21:30"
+            ],
+            "thursday": [
+                "06:00~14:00",
+                "15:30~21:30"
+            ],
+            "friday": [
+                "06:00~14:00",
+                "15:30~21:30"
+            ],
+            "saturday": [
+                "07:00~09:00",
+                "12:00~17:30"
+            ],
+            "sunday": [
+                "07:00~09:00",
+                "12:00~17:30"
+            ]
+        },
+        "cleaningTime" : "평일 14:00~15:30",
+        "fees": {
+            "성인": 2000
+        },
+        "additionalInfo" : [
+
+        ],
+        
+        "coordinate": {
+            "latitude" : 1.1,
+            "latitude" : 1.1
+        },
+        "sidoCode" : "26",
+        "sigunguCode" : "020"
+    },
+    {
+        "name": "문수 실내 수영장",
+        "website" : "https://www.uic.or.kr/munsu/",
+        "address": "울산광역시 남구 문수로 44",
+        "phoneNumber" : "052-220-2002",
+        "regularHolidays": "매주 일요일",
+        "operatingHoursPerDay" : {
+            "monday": [
+                "13:00 ~ 19:00"
+            ],
+            "tuesday": [
+                "13:00 ~ 19:00"
+            ],
+            "wednesday": [
+                "13:00 ~ 19:00"
+            ],
+            "thursday": [
+                "13:00 ~ 19:00"
+            ],
+            "friday": [
+                "13:00 ~ 19:00"
+            ],
+            "saturday": [
+                "1부 - 07:00 ~ 12:00",
+                "2부 - 13:00 ~ 17:30"
+            ],
+            "sunday": [
+               
+            ]
+        },
+        "cleaningTime" : "",
+        "fees": {
+            "성인": 4000
+        },
+        "additionalInfo" : [
+            "공휴일 운영 시간 : 토요일과 동일",
+            "입장 마감은 마감 시간 기준 1시간 전"
+        ],
+        
+        "coordinate": {
+            "latitude" : 1.1,
+            "latitude" : 1.1
+        },
+        "sidoCode" : "26",
+        "sigunguCode" : "020"
     }
 ]
