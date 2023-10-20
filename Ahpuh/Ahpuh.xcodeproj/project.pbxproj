@@ -26,6 +26,8 @@
 		3B1EFCD22ADD8B6800114650 /* SidoSwimmingPoolListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1EFCD12ADD8B6800114650 /* SidoSwimmingPoolListView.swift */; };
 		3B1EFCD42ADDB97500114650 /* PinButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1EFCD32ADDB97500114650 /* PinButtonView.swift */; };
 		3B1EFCD62AE04EA900114650 /* SigunguNameGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1EFCD52AE04EA900114650 /* SigunguNameGenerator.swift */; };
+		63D3F4DB2AE2E61600EBCFF2 /* VersionUpdateInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D3F4DA2AE2E61600EBCFF2 /* VersionUpdateInfo.swift */; };
+		63D3F4DD2AE2E79000EBCFF2 /* VersionUpdateInfos.json in Resources */ = {isa = PBXBuildFile; fileRef = 63D3F4DC2AE2E79000EBCFF2 /* VersionUpdateInfos.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +51,8 @@
 		3B1EFCD12ADD8B6800114650 /* SidoSwimmingPoolListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidoSwimmingPoolListView.swift; sourceTree = "<group>"; };
 		3B1EFCD32ADDB97500114650 /* PinButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinButtonView.swift; sourceTree = "<group>"; };
 		3B1EFCD52AE04EA900114650 /* SigunguNameGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigunguNameGenerator.swift; sourceTree = "<group>"; };
+		63D3F4DA2AE2E61600EBCFF2 /* VersionUpdateInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VersionUpdateInfo.swift; sourceTree = "<group>"; };
+		63D3F4DC2AE2E79000EBCFF2 /* VersionUpdateInfos.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = VersionUpdateInfos.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +138,7 @@
 			children = (
 				3B1EFCCB2ADD807300114650 /* DistrictCode */,
 				3B1EFCB32ADAE97D00114650 /* SwimmingPool.swift */,
+				63D3F4DA2AE2E61600EBCFF2 /* VersionUpdateInfo.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -162,6 +167,7 @@
 			children = (
 				3B1EFCBC2ADAE97D00114650 /* SwimmingPools.json */,
 				3B1EFCBD2ADAE97D00114650 /* SwimmingPoolTemplate.json */,
+				63D3F4DC2AE2E79000EBCFF2 /* VersionUpdateInfos.json */,
 			);
 			path = Mock;
 			sourceTree = "<group>";
@@ -242,6 +248,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63D3F4DD2AE2E79000EBCFF2 /* VersionUpdateInfos.json in Resources */,
 				3B1EFCC92ADAEB7800114650 /* SwimmingPools.json in Resources */,
 				3B1EFCCA2ADAEB7800114650 /* SwimmingPoolTemplate.json in Resources */,
 				3B1EFCA42ADAE8A100114650 /* Preview Assets.xcassets in Resources */,
@@ -268,6 +275,7 @@
 				3B1EFCD22ADD8B6800114650 /* SidoSwimmingPoolListView.swift in Sources */,
 				3B1EFCC42ADAEB6500114650 /* AhpuhApp.swift in Sources */,
 				3B1EFCC52ADAEB6500114650 /* SwimmingPoolDetailView.swift in Sources */,
+				63D3F4DB2AE2E61600EBCFF2 /* VersionUpdateInfo.swift in Sources */,
 				3B1EFCD62AE04EA900114650 /* SigunguNameGenerator.swift in Sources */,
 				3B1EFCC62ADAEB6500114650 /* PinnedSection.swift in Sources */,
 				3B1EFCC72ADAEB6500114650 /* SwimmingPoolListView.swift in Sources */,

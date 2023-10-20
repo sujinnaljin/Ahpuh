@@ -14,6 +14,7 @@ struct SwimmingPoolListView: View {
     @AppStorage("pinnedSwimmingPoolsKeys") var pinnedSwimmingPoolsKeys = [""]
     @State private var swimmingPools: [SwimmingPool] = []
     @State private var error: Error?
+    @State private var needToUpdate = false
     
     private let navigationBarTitle: String = "🏊🏻‍♀️🏊🏽‍♂️ 오늘도 행수! 🏊🏼🏊🏼‍♀️"
     private var errorMessage: String? {
@@ -80,7 +81,7 @@ struct SwimmingPoolListView: View {
                     swimmingPools = mockFile
                 }  else {
                     do {
-                        swimmingPools = try await NetworkClient().fetchSwimmingPools()
+                        swimmingPools = try await SwimmingPoolClient().fetchSwimmingPools()
                     } catch {
                         self.error = error
                         swimmingPools = mockFile
@@ -88,6 +89,20 @@ struct SwimmingPoolListView: View {
                 }
                 self.swimmingPools = swimmingPools.sorted {
                     $0.name ?? "" < $1.name ?? ""
+                }
+            }
+            Task {
+                let versionUpdateInfos: [VersionUpdateInfo] = try await VersionUpdateInfoClient().fetchVersionUpdateInfos()
+                let currentAppVersion = Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String
+                needToUpdate = versionUpdateInfos.filter { versionUpdateInfo in
+                    versionUpdateInfo.version == currentAppVersion
+                }.first?.needToUpdate ?? false
+            }
+        }
+        .alert("더 나은 사용성을 위해 앱스토어에서 앱을 업데이트해주세요!", isPresented: $needToUpdate) {
+            Button("확인", role: .cancel) {
+                if let url = URL(string: "itms-apps://itunes.apple.com/") {
+                    UIApplication.shared.open(url)
                 }
             }
         }
