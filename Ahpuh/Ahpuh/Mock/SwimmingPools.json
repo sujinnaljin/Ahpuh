@@ -1189,6 +1189,7 @@
         },
         "additionalInfo" : [
             "운영시간 종료 1시간 전까지 입장 가능",
+            "해수풀",
             "10월 14일 ~ 11월 19일 휴장"
         ],
         "website" : "https://www.djsiseol.or.kr/portal/sub020503.asp",
@@ -1199,5 +1200,53 @@
         "phoneNumber" : "042-280-1000",
         "sidoCode" : "25",
         "sigunguCode" : "010"
+    },
+    {
+        "name": "동구 국민 체육센터",
+        "address": "대전광역시 동구 가양로 9",
+        "regularHolidays": "매주 일요일",
+        "operatingHoursPerDay" : {
+            "monday": [
+               "14:00 ~ 18:50"
+            ],
+            "tuesday": [
+                "14:00 ~ 18:50"
+            ],
+            "wednesday": [
+                "06:00 ~ 07:50",
+                "09:00 ~ 10:50",
+                "14:00 ~ 21:00"
+            ],
+            "thursday": [
+                "14:00 ~ 18:50"
+            ],
+            "friday": [
+                "14:00 ~ 18:50"
+            ],
+            "saturday": [
+                "06:00 ~ 11:50",
+                "13:00 ~ 17:00"
+            ],
+            "sunday": [
+               
+            ]
+        },
+        "cleaningTime" : "",
+        "fees": {
+            "성인": 4300
+        },
+        "additionalInfo" : [
+            "공휴일 운영 시간 : 06:00 ~ 17:00",
+            "해수풀"
+        ],
+        "website" : "http://dgnsc.co.kr/sub3_1",
+        "coordinate": {
+            "latitude" : 1.1,
+            "latitude" : 1.1
+        },
+        "phoneNumber" : "042-624-6400",
+        "sidoCode" : "25",
+        "sigunguCode" : "010"
+    },
     }
 ]
