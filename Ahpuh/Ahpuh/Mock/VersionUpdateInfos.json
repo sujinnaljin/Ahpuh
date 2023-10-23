@@ -2,5 +2,9 @@
     {
         "version": "1.0",
         "needToUpdate": false
+    },
+    {
+        "version": "1.0.1",
+        "needToUpdate": false
     }
 ]
