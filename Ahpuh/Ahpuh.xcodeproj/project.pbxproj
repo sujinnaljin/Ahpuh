@@ -26,6 +26,7 @@
 		3B1EFCD22ADD8B6800114650 /* SidoSwimmingPoolListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1EFCD12ADD8B6800114650 /* SidoSwimmingPoolListView.swift */; };
 		3B1EFCD42ADDB97500114650 /* PinButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1EFCD32ADDB97500114650 /* PinButtonView.swift */; };
 		3B1EFCD62AE04EA900114650 /* SigunguNameGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1EFCD52AE04EA900114650 /* SigunguNameGenerator.swift */; };
+		63A302E52AE6945200C22282 /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A302E42AE6945200C22282 /* View+Extensions.swift */; };
 		63D3F4DB2AE2E61600EBCFF2 /* VersionUpdateInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D3F4DA2AE2E61600EBCFF2 /* VersionUpdateInfo.swift */; };
 		63D3F4DD2AE2E79000EBCFF2 /* VersionUpdateInfos.json in Resources */ = {isa = PBXBuildFile; fileRef = 63D3F4DC2AE2E79000EBCFF2 /* VersionUpdateInfos.json */; };
 /* End PBXBuildFile section */
@@ -51,6 +52,7 @@
 		3B1EFCD12ADD8B6800114650 /* SidoSwimmingPoolListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidoSwimmingPoolListView.swift; sourceTree = "<group>"; };
 		3B1EFCD32ADDB97500114650 /* PinButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinButtonView.swift; sourceTree = "<group>"; };
 		3B1EFCD52AE04EA900114650 /* SigunguNameGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigunguNameGenerator.swift; sourceTree = "<group>"; };
+		63A302E42AE6945200C22282 /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
 		63D3F4DA2AE2E61600EBCFF2 /* VersionUpdateInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VersionUpdateInfo.swift; sourceTree = "<group>"; };
 		63D3F4DC2AE2E79000EBCFF2 /* VersionUpdateInfos.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = VersionUpdateInfos.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -150,6 +152,7 @@
 				3B1EFCB62ADAE97D00114650 /* EnvironmentValues+Extensions.swift */,
 				3B1EFCB72ADAE97D00114650 /* CLLocationCoordinate2D+Extensions.swift */,
 				3B1EFCB82ADAE97D00114650 /* JsonParser.swift */,
+				63A302E42AE6945200C22282 /* View+Extensions.swift */,
 			);
 			path = Util;
 			sourceTree = "<group>";
@@ -270,6 +273,7 @@
 				3B1EFCCD2ADD808200114650 /* Sido.swift in Sources */,
 				3B1EFCC12ADAEB6500114650 /* JsonParser.swift in Sources */,
 				3B1EFCC22ADAEB6500114650 /* NetworkClient.swift in Sources */,
+				63A302E52AE6945200C22282 /* View+Extensions.swift in Sources */,
 				3B1EFCC32ADAEB6500114650 /* SwimmingPool.swift in Sources */,
 				3B1EFCCF2ADD808800114650 /* Sigungu.swift in Sources */,
 				3B1EFCD22ADD8B6800114650 /* SidoSwimmingPoolListView.swift in Sources */,

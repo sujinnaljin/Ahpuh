@@ -29,7 +29,6 @@ struct SwimmingPoolDetailView: View {
                             ScrollView(.horizontal) {
                                 Text(operatingHours.joined(separator: " / "))
                                     .font(.body)
-                                    
                             }
                             .scrollIndicators(.hidden)
                         } else {
@@ -37,7 +36,9 @@ struct SwimmingPoolDetailView: View {
                                 .font(.body)
                         }
                     }
-                    .listRowBackground(isToday ? Color.yellow : Color.white)
+                    .if(isToday) { view in
+                        view.listRowBackground(Color.yellow)
+                    }
                 }
             } header: {
                 HStack {

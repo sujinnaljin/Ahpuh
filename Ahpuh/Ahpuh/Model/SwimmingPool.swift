@@ -111,7 +111,7 @@ enum DayOfWeek: Int, CaseIterable, Decodable {
         case .sunday:
             return .red
         default:
-            return .black
+            return .primary
         }
     }
 }
