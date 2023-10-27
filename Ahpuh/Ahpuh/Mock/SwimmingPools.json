@@ -3306,6 +3306,126 @@
         },
         "sidoCode" : "11",
         "sigunguCode" : "110"
+    },
+    
+    
+    
+    
+    {
+        "name": "동대문구민 체육센터",
+        "website" : "https://www.dfmc.kr:8443/course/sports/fmcs/39?action=read&action-value=5e9ac2b0fcf7ca91a630690361cc947e&page_size=20&document_category_srl=14&search_field=ALL",
+        "address": "서울특별시 동대문구 장안벚꽃로 67",
+        "phoneNumber" : "02-2247-9772",
+        "regularHolidays": "매월 2,4,5 일요일",
+        "operatingHoursPerDay" : {
+            "monday": [
+                "13:00~13:50",
+                "21:00~21:50"
+            ],
+            "tuesday": [
+                "13:00~13:50",
+                "21:00~21:50"
+            ],
+            "wednesday": [
+                "13:00~13:50",
+                "21:00~21:50"
+            ],
+            "thursday": [
+                "13:00~13:50",
+                "21:00~21:50"
+            ],
+            "friday": [
+                "13:00~13:50",
+                "21:00~21:50"
+            ],
+            "saturday": [
+                "09:00~09:50",
+                "10:00~10:50",
+                "11:00~11:50",
+                "13:00~13:50",
+                "14:00~14:50",
+                "16:00~16:50",
+                "17:00~17:50"
+            ],
+            "sunday": [
+                "10:00~10:50",
+                "11:00~11:50",
+                "13:00~13:50",
+                "14:00~14:50",
+                "16:00~16:50",
+                "17:00~17:50"
+            ]
+        },
+        "cleaningTime" : "",
+        "fees": {
+            "성인": 3700
+        },
+        "additionalInfo" : [
+
+        ],
+        "coordinate": {
+            "latitude" : 1.1,
+            "latitude" : 1.1
+        },
+        "sidoCode" : "11",
+        "sigunguCode" : "060"
+    },
+    {
+        "name": "시립 동대문 청소년 센터",
+        "website" : "http://www.ddmy.or.kr/new/02_program/index_2_3.php",
+        "address": "서울특별시 동대문구 제기로33길 25",
+        "phoneNumber" : "02-3295-1478",
+        "regularHolidays": "주말 및 공휴일",
+        "operatingHoursPerDay" : {
+            "monday": [
+                "11:00~11:50",
+                "12:00~12:50",
+                "18:00~18:50",
+                "19:00~19:50",
+                "20:00~20:50"
+            ],
+            "tuesday": [
+                "18:00~18:50",
+                "19:00~19:50"
+            ],
+            "wednesday": [
+                "11:00~11:50",
+                "12:00~12:50",
+                "18:00~18:50",
+                "19:00~19:50",
+                "20:00~20:50"
+            ],
+            "thursday": [
+                "18:00~18:50",
+                "19:00~19:50"
+            ],
+            "friday": [
+                "11:00~11:50",
+                "12:00~12:50",
+                "18:00~18:50",
+                "19:00~19:50",
+                "20:00~20:50"
+            ],
+            "saturday": [
+               
+            ],
+            "sunday": [
+               
+            ]
+        },
+        "cleaningTime" : "",
+        "fees": {
+            "성인": 4500
+        },
+        "additionalInfo" : [
+
+        ],
+        "coordinate": {
+            "latitude" : 1.1,
+            "latitude" : 1.1
+        },
+        "sidoCode" : "11",
+        "sigunguCode" : "060"
     }
 
 ]
