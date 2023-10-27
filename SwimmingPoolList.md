@@ -19,6 +19,9 @@ https://sports.seoul.go.kr/main/facilities/facilities_view.do?ft_idx=1007
 - 구로구
 - 금천구
 - 노원구
+  - ~~노원 청소년 센터~~
+  - ~~월계구민 체육센터~~
+  - ~~중계구민 체육센터 - 26년 11월 이후 이용 가능~~
 - 도봉구
 - 동대문구
 - 동작구

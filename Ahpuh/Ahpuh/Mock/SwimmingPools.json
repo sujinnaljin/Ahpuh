@@ -3159,9 +3159,153 @@
         },
         "sidoCode" : "11",
         "sigunguCode" : "050"
+    },
+
+
+
+    {
+        "name": "시립 노원 청소년 센터",
+        "website" : "https://youthcenter.or.kr/105",
+        "address": "서울특별시 노원구 덕릉로70길 99",
+        "phoneNumber" : "02-3391-4141",
+        "regularHolidays": "국경일 및 대체공휴일",
+        "operatingHoursPerDay" : {
+            "monday": [
+               "12:00~12:50"
+            ],
+            "tuesday": [
+                "12:00~12:50"
+            ],
+            "wednesday": [
+                "12:00~12:50"
+            ],
+            "thursday": [
+                "12:00~12:50"
+            ],
+            "friday": [
+                "12:00~12:50"
+            ],
+            "saturday": [
+               "정보 없음"
+            ],
+            "sunday": [
+               
+            ]
+        },
+        "cleaningTime" : "",
+        "fees": {
+            "만 24세": 4300,
+            "성인": 4730
+        },
+        "additionalInfo" : [
+
+        ],
+        "coordinate": {
+            "latitude" : 1.1,
+            "latitude" : 1.1
+        },
+        "sidoCode" : "11",
+        "sigunguCode" : "110"
+    },
+    {
+        "name": "월계구민 체육센터",
+        "website" : "https://www.nowonsc.kr/fmcs/83",
+        "address": "서울특별시 노원구 월계로 298",
+        "phoneNumber" : "02-2289-6874",
+        "regularHolidays": "매주 일요일 및 공휴일",
+        "operatingHoursPerDay" : {
+            "monday": [
+               "12:00~12:50",
+               "15:00~15:50",
+               "16:00~16:50"
+            ],
+            "tuesday": [
+                "12:00~12:50",
+                "15:00~15:50",
+                "16:00~16:50"
+            ],
+            "wednesday": [
+                "12:00~12:50",
+                "15:00~15:50",
+                "16:00~16:50"
+            ],
+            "thursday": [
+                "12:00~12:50",
+                "15:00~15:50",
+                "16:00~16:50"
+            ],
+            "friday": [
+                "12:00~12:50",
+                "15:00~15:50",
+                "16:00~16:50"
+            ],
+            "saturday": [
+               "09:00~10:50",
+               "12:00~13:50",
+               "15:00~16:50"
+            ],
+            "sunday": [
+               
+            ]
+        },
+        "cleaningTime" : "",
+        "fees": {
+            "평일 성인": 3900,
+            "주말 성인": 5000
+        },
+        "additionalInfo" : [
+
+        ],
+        "coordinate": {
+            "latitude" : 1.1,
+            "latitude" : 1.1
+        },
+        "sidoCode" : "11",
+        "sigunguCode" : "110"
+    },
+    {
+        "name": "중계구민 체육센터",
+        "website" : "",
+        "address": "노원구 노원로 22길 1",
+        "phoneNumber" : "02-2289-6700",
+        "regularHolidays": "매주 일요일 및 공휴일",
+        "operatingHoursPerDay" : {
+            "monday": [
+               "재건축 준공예정일인 2026년 11월 이후 이용 가능"
+            ],
+            "tuesday": [
+                "재건축 준공예정일인 2026년 11월 이후 이용 가능"
+            ],
+            "wednesday": [
+                "재건축 준공예정일인 2026년 11월 이후 이용 가능"
+            ],
+            "thursday": [
+                "재건축 준공예정일인 2026년 11월 이후 이용 가능"
+            ],
+            "friday": [
+                "재건축 준공예정일인 2026년 11월 이후 이용 가능"
+            ],
+            "saturday": [
+                "재건축 준공예정일인 2026년 11월 이후 이용 가능"
+            ],
+            "sunday": [
+               
+            ]
+        },
+        "cleaningTime" : "",
+        "fees": {
+            "평일 성인": 3900,
+            "주말 성인": 5000
+        },
+        "additionalInfo" : [
+            "재건축 준공예정일인 2026년 11월 이후 이용 가능"
+        ],
+        "coordinate": {
+            "latitude" : 1.1,
+            "latitude" : 1.1
+        },
+        "sidoCode" : "11",
+        "sigunguCode" : "110"
     }
-
-
-
 
 ]
