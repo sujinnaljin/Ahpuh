@@ -12,6 +12,10 @@ https://sports.seoul.go.kr/main/facilities/facilities_view.do?ft_idx=1007
 - ~~강서구~~
 - 관악구
 - 광진구
+  - ~~광진 문화 예술회관~~
+  - 서울시동부여성발전센터
+  - ~~광진구민 체육센터~~
+  - ~~중곡 문화 체육센터~~
 - 구로구
 - 금천구
 - 노원구
