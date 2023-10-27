@@ -42,12 +42,12 @@ https://sports.seoul.go.kr/main/facilities/facilities_view.do?ft_idx=1007
   - ~~조종 국민 체육센터 - https://www.gpfmc.or.kr/gpjojong/sub/sub3_1.php~~
   - ~~한석봉 체육관 수영장 - https://www.gpfmc.or.kr/sub3/sub3_9-covid.php~~
   - ~~청평호반 문화 체육 센터 - https://gpfmc.or.kr/sub3/sub3_13-4.php~~
-- 고양
-  - 일산 올림픽 스포츠 센터
-  - 고양 백석 체육 센터
-  - 고양어울림누리꽃우물수영장
-  - 고양시 재활 스포츠 센터
-  - 고양 체육관
+- ~~고양~~
+  - ~~일산 올림픽 스포츠 센터~~
+  - ~~고양 백석 체육 센터~~
+  - ~~고양시 재활 스포츠 센터~~
+  - ~~고양 체육관~~
+  - ~~고양어울림누리꽃우물수영장~~
 - 과천
   - 과천 청소년 수련관
   - 과천 시민 회관
