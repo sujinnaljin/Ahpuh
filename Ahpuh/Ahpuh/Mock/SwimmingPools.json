@@ -1988,7 +1988,58 @@
     },
     
     
-    
+    {
+        "name": "구즉 국민 체육센터",
+        "website" : "http://www.yssc.or.kr/bbs/board.php?bo_table=sisul01",
+        "address": "대전광역시 유성구 송강로 42번길 34",
+        "phoneNumber" : "042-934-8486",
+        "regularHolidays": "매주 월요일",
+        "operatingHoursPerDay" : {
+            "monday": [
+               
+            ],
+            "tuesday": [
+               "12:30~14:00",
+               "15:00~15:50",
+               "18:00~18:50"
+            ],
+            "wednesday": [
+                "12:30~15:50",
+                "18:00~18:50"
+            ],
+            "thursday": [
+                "12:30~14:00",
+                "15:00~18:50"
+            ],
+            "friday": [
+                "12:30~14:00",
+                "15:00~15:50",
+                "18:00~18:50"
+            ],
+            "saturday": [
+               "06:00~12:00",
+               "13:00~17:30"
+            ],
+            "sunday": [
+                "06:00~12:00",
+                "13:00~17:30"
+            ]
+        },
+        "cleaningTime" : "",
+        "fees": {
+            "성인": 3200
+        },
+        "additionalInfo" : [
+
+        ],
+        "coordinate": {
+            "latitude" : 1.1,
+            "latitude" : 1.1
+        },
+        "sidoCode" : "25",
+        "sigunguCode" : "040"
+    },
+
     
     
     {
@@ -3427,5 +3478,4 @@
         "sidoCode" : "11",
         "sigunguCode" : "060"
     }
-
 ]
