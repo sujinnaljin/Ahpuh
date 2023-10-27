@@ -2174,5 +2174,153 @@
         },
         "sidoCode" : "26",
         "sigunguCode" : "020"
+    },
+    
+    
+    
+    {
+        "name": "조종 국민 체육센터",
+        "website" : "https://www.gpfmc.or.kr/gpjojong/sub/sub3_1.php",
+        "address": "경기도 가평군 조종면 조종희망로 26번길 16",
+        "phoneNumber" : "031-8078-8091",
+        "regularHolidays": "매주 일요일, 법정 공휴일",
+        "operatingHoursPerDay" : {
+            "monday": [
+               "06:00~21:00"
+            ],
+            "tuesday": [
+                "06:00~21:00"
+            ],
+            "wednesday": [
+                "06:00~21:00"
+            ],
+            "thursday": [
+                "06:00~21:00"
+            ],
+            "friday": [
+                "06:00~21:00"
+            ],
+            "saturday": [
+               "09:00~18:00"
+            ],
+            "sunday": [
+               
+            ]
+        },
+        "cleaningTime" : "",
+        "fees": {
+            "성인": 4000
+        },
+        "additionalInfo" : [
+
+        ],
+        
+        "coordinate": {
+            "latitude" : 1.1,
+            "latitude" : 1.1
+        },
+        "sidoCode" : "31",
+        "sigunguCode" : "570"
+    },
+    {
+        "name": "한석봉 체육관 수영장",
+        "website" : "https://www.gpfmc.or.kr/sub3/sub3_9-covid.php",
+        "address": "경기도 가평군 가평읍 문화로 153",
+        "phoneNumber" : "031-8078-8310",
+        "regularHolidays": "일요일 및 공휴일",
+        "operatingHoursPerDay" : {
+            "monday": [
+               "06:00~13:00",
+               "13:40~21:00"
+            ],
+            "tuesday": [
+                "06:00~13:00",
+                "13:40~21:00"
+            ],
+            "wednesday": [
+                "06:00~13:00",
+                "13:40~21:00"
+            ],
+            "thursday": [
+                "06:00~13:00",
+                "13:40~21:00"
+            ],
+            "friday": [
+                "06:00~13:00",
+                "13:40~21:00"
+            ],
+            "saturday": [
+               "09:00~13:00",
+               "13:40~18:00"
+            ],
+            "sunday": [
+               
+            ]
+        },
+        "cleaningTime" : "",
+        "fees": {
+            "성인": 4000
+        },
+        "additionalInfo" : [
+            "단 아쿠아로빅 수업중에는 자유수영 불가능. 아쿠아로빅 시간은 사이트 확인",
+            "데이터 작성 기준 아쿠아로빅 강습 시간 - 월 수 금 14:10 ~ 15:00"
+        ],
+        
+        "coordinate": {
+            "latitude" : 1.1,
+            "latitude" : 1.1
+        },
+        "sidoCode" : "31",
+        "sigunguCode" : "570"
+    },
+    {
+        "name": "청평호반 문화 체육 센터",
+        "website" : "https://gpfmc.or.kr/sub3/sub3_13-4.php",
+        "address": "경기도 가평군 청평면 청평리 333",
+        "phoneNumber" : "031-8078-7310",
+        "regularHolidays": "매주 일요일, 법정 공휴일",
+        "operatingHoursPerDay" : {
+            "monday": [
+               "6:00~13:00",
+               "14:00~21:00"
+            ],
+            "tuesday": [
+                "6:00~13:00",
+                "14:00~21:00"
+            ],
+            "wednesday": [
+                "6:00~13:00",
+                "14:00~21:00"
+            ],
+            "thursday": [
+                "6:00~13:00",
+                "14:00~21:00"
+            ],
+            "friday": [
+                "6:00~13:00",
+                "14:00~21:00"
+            ],
+            "saturday": [
+               "9:00~13:00",
+               "14:00~17:00"
+            ],
+            "sunday": [
+               
+            ]
+        },
+        "cleaningTime" : "",
+        "fees": {
+            "성인": 4000
+        },
+        "additionalInfo" : [
+
+        ],
+        
+        "coordinate": {
+            "latitude" : 1.1,
+            "latitude" : 1.1
+        },
+        "sidoCode" : "31",
+        "sigunguCode" : "570"
     }
 ]

@@ -38,10 +38,10 @@ https://sports.seoul.go.kr/main/facilities/facilities_view.do?ft_idx=1007
 
 # 경기도
 
-- 가평군
-  - 조종 국민 체육센터 - https://www.gpfmc.or.kr/gpjojong/sub/sub3_1.php
-  - 한석봉 체육관 수영장 - https://www.gpfmc.or.kr/sub3/sub3_9-covid.php
-  - 청평호반 문화 체육 센터 - https://gpfmc.or.kr/sub3/sub3_13-4.php
+- ~~가평군~~
+  - ~~조종 국민 체육센터 - https://www.gpfmc.or.kr/gpjojong/sub/sub3_1.php~~
+  - ~~한석봉 체육관 수영장 - https://www.gpfmc.or.kr/sub3/sub3_9-covid.php~~
+  - ~~청평호반 문화 체육 센터 - https://gpfmc.or.kr/sub3/sub3_13-4.php~~
 - 고양
   - 일산 올림픽 스포츠 센터
   - 고양 백석 체육 센터
@@ -80,8 +80,21 @@ https://sports.seoul.go.kr/main/facilities/facilities_view.do?ft_idx=1007
   - 복사골 스포츠 센터
   - 부천 스포츠 센터
   - 소사 국민 체육 센터
-
 - 성남
+  - KT 스포츠센터
+  - 성남시 평생 학습관 스포츠 센터
+  - 판교 스포츠 센터
+  - 성남 종합 스포츠센터
+  - 탄천 종합 운동장 수영장
+  - 패밀리 스포츠 센터
+  - 수정 청소년 수련관
+  - 분당 올림픽 스포츠 센터
+  - 코오롱 스포렉스 분당점
+  - 판교 노인 종합 복지관
+  - 중원 청소년 수련관
+  - 분당 종합 사회 복지관
+  - 분당 판교 청소년 수련관
+  - 한마음 복지관 레포츠 센터
 - 수원
 - 시흥
 - 안산 
@@ -120,6 +133,15 @@ https://sports.seoul.go.kr/main/facilities/facilities_view.do?ft_idx=1007
 - ~~동구~~
 - ~~서구~~
 - 유성구
+  - 사이언스전민 스포츠센터
+  - 사이언스 도룡 스포츠센터
+  - 카이스트 수영장
+  - 구즉 국민 체육센터
+  - 진잠 다목적 체육관
+  - 추목 수영장
+  - 대전 월드컵 스포츠센터
+  - 유성구 종합 사회 복지관
+  - 유성구 장애인 종합 복지관
 - ~~중구~~
 
 # 세종
