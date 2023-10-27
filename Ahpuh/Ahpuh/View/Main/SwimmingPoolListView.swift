@@ -101,7 +101,8 @@ struct SwimmingPoolListView: View {
         }
         .alert("더 나은 사용성을 위해 앱스토어에서 앱을 업데이트해주세요!", isPresented: $needToUpdate) {
             Button("확인", role: .cancel) {
-                if let url = URL(string: "itms-apps://itunes.apple.com/") {
+                let appId = "6469421054"
+                if let url = URL(string: "itms-apps://itunes.apple.com/app/id\(appId)") {
                     UIApplication.shared.open(url)
                 }
             }
