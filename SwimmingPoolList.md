@@ -37,6 +37,10 @@ https://sports.seoul.go.kr/main/facilities/facilities_view.do?ft_idx=1007
   - ~~서초구민 체육 센터~~
 - 성동구
 - 성북구
+  - 성북 종합 레포츠타운
+  - 개운산 스포츠 센터
+  - 돈암 문화 스포츠센터
+  - 시립 성북 청소년 센터
 - ~~송파구~~
 - 양천구
 - 영등포구
@@ -105,7 +109,18 @@ https://sports.seoul.go.kr/main/facilities/facilities_view.do?ft_idx=1007
   - 분당 종합 사회 복지관
   - 분당 판교 청소년 수련관
   - 한마음 복지관 레포츠 센터
-- 수원
+- 수원 - https://www.suwon.go.kr/sw-www/deptHome/dep_tour/culture03/culture03_03/culture03_03_14.jsp
+  - 장안구민회관
+  - 서수원주민편익시설 (흰여울수영장)
+  - 서호노인복지관
+  - 버드내노인복지회관
+  - 수원청소년문화센터 (새천년수영장)
+  - 팔달노인복지관
+  - 녹색교통복지회관
+  - 수원체육문화센터
+  - 영통종합사회복지관
+  - 광교체육센터
+  - 광교웰빙국민체육센터
 - 시흥
 - 안산 
 - 안성
