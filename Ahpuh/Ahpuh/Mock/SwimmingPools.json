@@ -941,6 +941,156 @@
     
     
     {
+        "name": "관악구민 종합체육센터",
+        "website" : "https://www.gwanakgongdan.or.kr/fmcs/15",
+        "address": "관악구 낙성대로 3길 37",
+        "phoneNumber" : "02-870-7600",
+        "regularHolidays": "매월 첫째주 일요일 / 법정공휴일",
+        "operatingHoursPerDay" : {
+            "monday": [
+               "12:00~12:50"
+            ],
+            "tuesday": [
+               "일일 회원 입장 불가"
+            ],
+            "wednesday": [
+                "12:00~12:50"
+            ],
+            "thursday": [
+                "일일 회원 입장 불가"
+            ],
+            "friday": [
+                "12:00~12:50"
+            ],
+            "saturday": [
+               "06:00~07:50",
+               "09:00~10:50",
+               "16:00~17:50",
+               "19:00~20:50"
+            ],
+            "sunday": [
+                "09:00~10:50",
+                "12:00~13:50",
+                "15:00~16:50"
+            ]
+        },
+        "cleaningTime" : "",
+        "fees": {
+            "평일 성인": 3400,
+            "주말 성인": 4400
+        },
+        "additionalInfo" : [
+
+        ],
+        "coordinate": {
+            "latitude" : 1.1,
+            "latitude" : 1.1
+        },
+        "sidoCode" : "11",
+        "sigunguCode" : "210"
+    },
+    {
+        "name": "신림 체육 센터",
+        "website" : "https://www.gwanakgongdan.or.kr/fmcs/28",
+        "address": "관악구 난곡로 58길 13",
+        "phoneNumber" : "02-2029-4500",
+        "regularHolidays": "매월 첫째주 일요일/법정공휴일",
+        "operatingHoursPerDay" : {
+            "monday": [
+               "12:00~12:50"
+            ],
+            "tuesday": [
+                "12:00~12:50"
+            ],
+            "wednesday": [
+                "12:00~12:50"
+            ],
+            "thursday": [
+                "12:00~12:50"
+            ],
+            "friday": [
+                "12:00~12:50"
+            ],
+            "saturday": [
+                "06:00~07:50",
+                "09:00~10:50",
+                "16:00~17:50",
+                "19:00~20:50"
+            ],
+            "sunday": [
+                "09:00~10:50",
+                "12:00~13:50",
+                "15:00~16:50"
+            ]
+        },
+        "cleaningTime" : "",
+        "fees": {
+            "평일 성인": 3410,
+            "주말 성인": 4400
+        },
+        "additionalInfo" : [
+
+        ],
+        "coordinate": {
+            "latitude" : 1.1,
+            "latitude" : 1.1
+        },
+        "sidoCode" : "11",
+        "sigunguCode" : "210"
+    },
+    {
+        "name": "조원 초등학교 수영장",
+        "website" : "https://jwswimming.modoo.at/?link=7yk2b5dn",
+        "address": "서울특별시 관악구 조원동 548-2",
+        "phoneNumber" : "02-857-9400",
+        "regularHolidays": "매주 일요일",
+        "operatingHoursPerDay" : {
+            "monday": [
+               "08:00~08:50",
+               "13:00~13:50"
+            ],
+            "tuesday": [
+                "08:00~08:50",
+                "12:00~13:50"
+            ],
+            "wednesday": [
+                "06:00~08:50",
+                "13:00~13:50",
+                "19:00~20:50"
+            ],
+            "thursday": [
+                "08:00~08:50",
+                "12:00~13:50"
+            ],
+            "friday": [
+                "08:00~08:50",
+                "13:00~13:50"
+            ],
+            "saturday": [
+                "07:00~10:50",
+                "14:00~16:50",
+                "(하절기 : 3월 - 10월) 17:00~17:50"
+            ],
+            "sunday": [
+               
+            ]
+        },
+        "cleaningTime" : "",
+        "fees": {
+            "성인": 8000
+        },
+        "additionalInfo" : [
+
+        ],
+        "coordinate": {
+            "latitude" : 1.1,
+            "latitude" : 1.1
+        },
+        "sidoCode" : "11",
+        "sigunguCode" : "210"
+    },
+    
+    {
         "name": "코오롱스포렉스 (방배 열린 문화센터)",
         "website" : "https://bb.sporex.com/sub_branch/list_v.php?number=12",
         "address": "서울특별시 서초구 서초대로70길 32",
