@@ -1520,7 +1520,7 @@
     {
         "name": "용운 국제 수영장",
         "address": "대전 동구 동부로 138",
-        "regularHolidays": "매월 두 번째 일요일",
+        "regularHolidays": "매월 두 번째, 네 번째, 다섯 번째 일요일, 신정, 설날/추석연휴,석가탄신일, 성탄절, 선거일",
         "operatingHoursPerDay" : {
             "monday": [
                 "06:00~21:00"
