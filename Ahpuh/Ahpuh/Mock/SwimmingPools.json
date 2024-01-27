@@ -1550,7 +1550,6 @@
         },
         "additionalInfo" : [
             "운영시간 종료 1시간 전까지 입장 가능",
-            "12월 9(토), 10(일), 24(일), 25(월), 31(일) 휴장"
         ],
         "website" : "https://www.djsiseol.or.kr/portal/sub020503.asp",
         "coordinate": {
@@ -2189,6 +2188,48 @@
         "sigunguCode" : "040"
     },
 
+    
+    {
+        "name": "옥천 국민 체육센터",
+        "website" : "",
+        "address": "충북 옥천군 옥천읍 동부로 39-1",
+        "regularHolidays": "매주 월요일, 공휴일, 임시공휴일, 국경일",
+        "operatingHoursPerDay" : {
+            "monday": [
+            ],
+            "tuesday": [
+                "06:00 - 21:00"
+            ],
+            "wednesday": [
+                "06:00 - 21:00"
+            ],
+            "thursday": [
+                "06:00 - 21:00"
+            ],
+            "friday": [
+                "06:00 - 21:00"
+            ],
+            "saturday": [
+                "06:00 - 17:00"
+            ],
+            "sunday": [
+                "06:00 - 17:00"
+            ]
+        },
+        "fees": {
+            "성인": 3000
+        },
+        "additionalInfo" : [
+        ],
+        "coordinate": {
+            "latitude" : 1.1,
+            "latitude" : 1.1
+        },
+        "phoneNumber" : "043-730-4975",
+        "sidoCode" : "33",
+        "sigunguCode" : "530"
+    },
+    
     
     
     {
