@@ -142,6 +142,7 @@ https://sports.seoul.go.kr/main/facilities/facilities_view.do?ft_idx=1007
 - 평택
 - 포천
 - 하남
+  - ~~하남 국민 체육센터~~
 - 화성
 
 # 인천
