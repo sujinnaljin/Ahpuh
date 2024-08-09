@@ -143,6 +143,7 @@ https://sports.seoul.go.kr/main/facilities/facilities_view.do?ft_idx=1007
 - 포천
 - 하남
   - ~~하남 국민 체육센터~~
+  - ~~풍산 멀티 스포츠센터~~
 - 화성
 
 # 인천
