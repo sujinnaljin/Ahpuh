@@ -4096,7 +4096,7 @@
         "name": "하남 국민 체육센터",
         "website" : "https://www.hanamsport.or.kr/wwwroot/ms/program/",
         "address": "경기도 하남시 아리수로 600",
-        "phoneNumber" : " 031-790-2000",
+        "phoneNumber" : "031-790-2000",
         "regularHolidays": "1,3,5주 일요일 및 법정공휴일, 대체 휴일",
         "operatingHoursPerDay" : {
             "monday": [
@@ -4168,6 +4168,57 @@
           "자유수영은 현장에서 선착순으로 발권하며, 정원 마감시 발권이 불가(입장불가)합니다.",
           "하절기 자유수영은 시간대별로 조기 마감되오니 이용에 참고하시기 바랍니다.",
           "토요 자유수영시 25m, 50m풀 동시 이용 가능"
+        ],
+        "coordinate": {
+            "latitude" : 1.1,
+            "latitude" : 1.1
+        },
+        "sidoCode" : "31",
+        "sigunguCode" : "180"
+    },
+    {
+        "name": "풍산 멀티 스포츠 센터",
+        "website" : "https://www.hanamsport.or.kr/wwwroot/ps/program/",
+        "address": "경기도 하남시 덕풍북로 160",
+        "phoneNumber" : "031-730-4800",
+        "regularHolidays": "1,3,5주 일요일 및 법정공휴일",
+        "operatingHoursPerDay" : {
+            "monday": [
+               "19:00~19:50"
+            ],
+            "tuesday": [
+                "19:00~19:50"
+            ],
+            "wednesday": [
+                "19:00~19:50"
+            ],
+            "thursday": [
+                "19:00~19:50"
+            ],
+            "friday": [
+                "19:00~19:50"
+            ],
+            "saturday": [
+                "09:00~10:50",
+                "11:00~12:50",
+                "14:00~15:50",
+                "16:00~17:50"
+            ],
+            "sunday": [
+                "09:00~10:50",
+                "11:00~12:50",
+                "14:00~15:50",
+                "16:00~17:50"
+            ]
+        },
+        "cleaningTime" : "",
+        "fees": {
+            "평일 성인": 1650,
+            "주말 성인": 3300
+        },
+        "additionalInfo" : [
+          "하남시 외 법인·단체 및 개인에게는 사용료와 이용료를 50% 할증하여 징수",
+          "한 타임당 정원 60명"
         ],
         "coordinate": {
             "latitude" : 1.1,
