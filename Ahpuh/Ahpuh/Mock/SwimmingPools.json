@@ -2191,7 +2191,7 @@
     
     {
         "name": "옥천 국민 체육센터",
-        "website" : "",
+        "website" : "https://www.oc.go.kr/www/contents.do?key=329",
         "address": "충북 옥천군 옥천읍 동부로 39-1",
         "regularHolidays": "매주 월요일, 공휴일, 임시공휴일, 국경일",
         "operatingHoursPerDay" : {
